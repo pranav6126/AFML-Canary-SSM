@@ -428,3 +428,8 @@ from real browser layout/paint/input. An initially repeated API measurement reus
 persisted command identities and measured cached receipts; retain it as invalid.
 The corrected benchmark uses a fresh runtime directory and asserts exactly one
 engine tick per measured API step, with a regression test for duplicate receipts.
+
+
+## Lightweight distribution cleanup — 15 November 2026
+
+At the user's request, remove generated historical run/telemetry/result data from the current branch and replacement ZIP. Preserve all source/tests/configs, fitted artifacts, policy/validation bindings and the exact small files referenced by runtime views and tests. Keep compact audit summaries without claiming that absent raw datasets are still bundled. Add ignore rules for regenerated runs. This is a normal deletion commit, without history rewriting; old data remain in the full-import commit. See `lightweight_distribution.md` and `distribution_manifest.json`.

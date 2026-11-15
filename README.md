@@ -1,5 +1,8 @@
 # canary_ssm: Hierarchical Canary State-Space Model (V1 + Version 2)
 
+> **Lightweight distribution:** bulk historical runs, telemetry exports and result caches have been removed. Source, fitted models/policies, required test fixtures and built-in dashboard demos remain. See [distribution contents and running instructions](docs/lightweight_distribution.md). Older sections describing saved experiment outputs refer to the full research archive.
+
+
 The small frozen audit fixture required by the legacy reproduction test is now
 included at `data_audit/model_pooled_dev`. No test setup is needed after
 extracting this archive. Its executed rebuild recipe and provenance are
