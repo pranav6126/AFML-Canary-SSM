@@ -1,0 +1,268 @@
+[
+  {
+    "record": {
+      "window_index": 0,
+      "event_time": 3660.0,
+      "decision_time": 3660.0,
+      "score": -1.9350076634138418,
+      "available": true,
+      "fresh_canaries": [
+        "host-01-01",
+        "host-02-02",
+        "host-03-01",
+        "host-04-01"
+      ],
+      "fresh_controls": {
+        "rack:rack-01": [
+          "host-01-02",
+          "host-01-03",
+          "host-01-04",
+          "host-01-05"
+        ],
+        "rack:rack-02": [
+          "host-02-01",
+          "host-02-03",
+          "host-02-04",
+          "host-02-05"
+        ],
+        "rack:rack-03": [
+          "host-03-02",
+          "host-03-03",
+          "host-03-04",
+          "host-03-05"
+        ],
+        "rack:rack-04": [
+          "host-04-02",
+          "host-04-03",
+          "host-04-04",
+          "host-04-05"
+        ]
+      },
+      "exposed_hosts": [
+        "host-01-01",
+        "host-02-02",
+        "host-03-01",
+        "host-04-01"
+      ],
+      "quality_flags": [
+        "no_current_workload_support_overlap:rack-01",
+        "no_current_workload_support_overlap:rack-02"
+      ],
+      "input_sha256": "a76bff93436b3ab5aa758ff8196c7ab331702e270f34d4d8e60e84aec6d0fcd0"
+    },
+    "outcome": {
+      "state": "HOLD",
+      "first_crossing": null,
+      "eligible_windows": 0,
+      "required_eligible_windows": 4,
+      "completed_horizon": false,
+      "healthy_ready": false,
+      "maximum_eligible_score": "-inf",
+      "threshold": -0.9663903893998882,
+      "quality_reasons": [
+        "quality_hold"
+      ],
+      "duplicate": false
+    }
+  },
+  {
+    "record": {
+      "window_index": 1,
+      "event_time": 3720.0,
+      "decision_time": 3720.0,
+      "score": -2.557710849412475,
+      "available": true,
+      "fresh_canaries": [
+        "host-01-01",
+        "host-02-02",
+        "host-03-01",
+        "host-04-01"
+      ],
+      "fresh_controls": {
+        "rack:rack-01": [
+          "host-01-02",
+          "host-01-03",
+          "host-01-04",
+          "host-01-05"
+        ],
+        "rack:rack-02": [
+          "host-02-01",
+          "host-02-03",
+          "host-02-04",
+          "host-02-05"
+        ],
+        "rack:rack-03": [
+          "host-03-02",
+          "host-03-03",
+          "host-03-04",
+          "host-03-05"
+        ],
+        "rack:rack-04": [
+          "host-04-02",
+          "host-04-03",
+          "host-04-04",
+          "host-04-05"
+        ]
+      },
+      "exposed_hosts": [
+        "host-01-01",
+        "host-02-02",
+        "host-03-01",
+        "host-04-01"
+      ],
+      "quality_flags": [
+        "no_current_workload_support_overlap:rack-01",
+        "no_current_workload_support_overlap:rack-04"
+      ],
+      "input_sha256": "4e7bc6c9289603368763b12f868da68fe8311ff9dc132aeba9d9190acac87ca0"
+    },
+    "outcome": {
+      "state": "HOLD",
+      "first_crossing": null,
+      "eligible_windows": 0,
+      "required_eligible_windows": 4,
+      "completed_horizon": false,
+      "healthy_ready": false,
+      "maximum_eligible_score": "-inf",
+      "threshold": -0.9663903893998882,
+      "quality_reasons": [
+        "quality_hold"
+      ],
+      "duplicate": false
+    }
+  },
+  {
+    "record": {
+      "window_index": 2,
+      "event_time": 3780.0,
+      "decision_time": 3780.0,
+      "score": -2.7724830042328517,
+      "available": true,
+      "fresh_canaries": [
+        "host-01-01",
+        "host-02-02",
+        "host-03-01",
+        "host-04-01"
+      ],
+      "fresh_controls": {
+        "rack:rack-01": [
+          "host-01-02",
+          "host-01-03",
+          "host-01-04",
+          "host-01-05"
+        ],
+        "rack:rack-02": [
+          "host-02-01",
+          "host-02-03",
+          "host-02-04",
+          "host-02-05"
+        ],
+        "rack:rack-03": [
+          "host-03-02",
+          "host-03-03",
+          "host-03-04",
+          "host-03-05"
+        ],
+        "rack:rack-04": [
+          "host-04-02",
+          "host-04-03",
+          "host-04-04",
+          "host-04-05"
+        ]
+      },
+      "exposed_hosts": [
+        "host-01-01",
+        "host-02-02",
+        "host-03-01",
+        "host-04-01"
+      ],
+      "quality_flags": [
+        "no_current_workload_support_overlap:rack-01",
+        "no_current_workload_support_overlap:rack-02",
+        "no_current_workload_support_overlap:rack-04",
+        "workload_extrapolation"
+      ],
+      "input_sha256": "d9b61e00566f9aff45d727522449a4956f675307672d1e59803067ce4d73d12c"
+    },
+    "outcome": {
+      "state": "HOLD",
+      "first_crossing": null,
+      "eligible_windows": 0,
+      "required_eligible_windows": 4,
+      "completed_horizon": false,
+      "healthy_ready": false,
+      "maximum_eligible_score": "-inf",
+      "threshold": -0.9663903893998882,
+      "quality_reasons": [
+        "quality_hold"
+      ],
+      "duplicate": false
+    }
+  },
+  {
+    "record": {
+      "window_index": 3,
+      "event_time": 3840.0,
+      "decision_time": 3840.0,
+      "score": -1.1920479871875629,
+      "available": true,
+      "fresh_canaries": [
+        "host-01-01",
+        "host-02-02",
+        "host-03-01",
+        "host-04-01"
+      ],
+      "fresh_controls": {
+        "rack:rack-01": [
+          "host-01-02",
+          "host-01-03",
+          "host-01-04",
+          "host-01-05"
+        ],
+        "rack:rack-02": [
+          "host-02-01",
+          "host-02-03",
+          "host-02-04",
+          "host-02-05"
+        ],
+        "rack:rack-03": [
+          "host-03-02",
+          "host-03-03",
+          "host-03-04",
+          "host-03-05"
+        ],
+        "rack:rack-04": [
+          "host-04-02",
+          "host-04-03",
+          "host-04-04",
+          "host-04-05"
+        ]
+      },
+      "exposed_hosts": [
+        "host-01-01",
+        "host-02-02",
+        "host-03-01",
+        "host-04-01"
+      ],
+      "quality_flags": [
+        "no_current_workload_support_overlap:rack-02",
+        "no_current_workload_support_overlap:rack-04"
+      ],
+      "input_sha256": "9e7858f3f92680e3957f74066b32da82a7dee6b49bf39f906123a4bf7026c8e5"
+    },
+    "outcome": {
+      "state": "HOLD",
+      "first_crossing": null,
+      "eligible_windows": 0,
+      "required_eligible_windows": 4,
+      "completed_horizon": true,
+      "healthy_ready": false,
+      "maximum_eligible_score": "-inf",
+      "threshold": -0.9663903893998882,
+      "quality_reasons": [
+        "quality_hold"
+      ],
+      "duplicate": false
+    }
+  }
+]

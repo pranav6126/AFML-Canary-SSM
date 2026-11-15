@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "release_id": "release-003",
+  "service_id": "demo-service",
+  "version": "1.2.0",
+  "creation_metadata": {
+    "author": "physical-smoke-fixture",
+    "created_at": "2026-11-15T00:00:00Z",
+    "description": "Declared simulation only; no source execution"
+  },
+  "behavior_manifest": {
+    "schema_version": 1,
+    "profiles": [
+      {
+        "kind": "slower_response",
+        "response_delay_ms": 120000
+      }
+    ]
+  }
+}

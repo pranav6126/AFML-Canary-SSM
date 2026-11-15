@@ -1,0 +1,104 @@
+{
+  "pair": {
+    "generator_id": "resource-world-scenarios-v1",
+    "role": "smoke",
+    "family": "transient_degradation",
+    "index": 0,
+    "seed": 29080000,
+    "seed_purpose": "world_smoke",
+    "family_index": 4,
+    "pair_id": "a9f58d7e76412b51834d7e00",
+    "members": [
+      "null",
+      "harm"
+    ]
+  },
+  "members": {
+    "null": {
+      "generator_id": "resource-world-scenarios-v1",
+      "pairing": "shared exogenous uniforms; endogenous routing/queues may diverge",
+      "pair": {
+        "generator_id": "resource-world-scenarios-v1",
+        "role": "smoke",
+        "family": "transient_degradation",
+        "index": 0,
+        "seed": 29080000,
+        "seed_purpose": "world_smoke",
+        "family_index": 4,
+        "pair_id": "a9f58d7e76412b51834d7e00",
+        "members": [
+          "null",
+          "harm"
+        ]
+      },
+      "member": "null",
+      "scenario_id": "run-cb52db27ccae94e09bb498ab71f5d41f",
+      "seed": 29080000,
+      "seed_registry_version": "2.1",
+      "config_sha256": "f973589e8717bac2408bcc46b2756eb6084ea400d139c3c35bc09628185f6aeb",
+      "command_log_sha256": "d0135a39003e0f095f6d0262ca93df6c6c512f339ad574ac3cfe69814978f476",
+      "run_sha256": "0af3f4db0459622e45a56ce838dd847bf1c828f70d8f041699fa9a8be934a768",
+      "exogenous_sha256": "1cf6d47c36cb0abeb9d72f3def085a27d025d392e3457cf7babad873f599732f",
+      "public_directory": "public",
+      "truth_directory": "evaluator",
+      "data_sha256": {
+        "public/decisions.jsonl": "6fec86897004b0679a28c92da41de5eb8b8d16d60c9056803bdfeb2bf5083dc7",
+        "public/metadata.json": "2bf4ca0bf8a9009943c6cced00fbf35c8da83d16b803fa6c56846e16ff1391e5",
+        "public/records.jsonl": "bf7c110ef21db00d4b7dae14680c8052885cf96b9da46f627b8143e3b68aa7a5",
+        "public/resource_trace/hosts.csv": "09b47fcfbbb48e12807c6a6a8df8867f584c2170f0a63bb2678f775e048bf7e5",
+        "public/resource_trace/services.csv": "09f2ebeed79ab59ff775dfdfd74b1e6ac8af8ff89707a53b37cc08320ca16e34",
+        "public/scores.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "public/windows.jsonl": "9a8266b9a1724b921729a2aee07f1303cb420f50fa14a3a9c6a0fc8030dcad9d",
+        "evaluator/intervention_label.json": "0e05edc7fe7b87a94ea4aecae4eacab4b387913f3b365338a95ec7bf0ec4f5c1",
+        "evaluator/metadata.json": "cd5e7aaf4b8354ab3e8029e5a95a252e378a3768fd3604b6b9e0521c88b4f8c8",
+        "evaluator/truth.jsonl": "cf2b02bbf9d16bf900cf1f7e6b7b949a96faa7ec7f150ba085d7b482a51a2cca"
+      },
+      "source_sha256": "8d41256c2c1d6948ed7fd3df4a48d1be4dd7f176e445a1146d14505305035abd",
+      "catalog_sha256": "0cc53664bb0620f5021af25ee68591f8a0366b22281992ec68fbb342f8ab645d",
+      "detector_status": "DETECTOR NOT CONNECTED"
+    },
+    "harm": {
+      "generator_id": "resource-world-scenarios-v1",
+      "pairing": "shared exogenous uniforms; endogenous routing/queues may diverge",
+      "pair": {
+        "generator_id": "resource-world-scenarios-v1",
+        "role": "smoke",
+        "family": "transient_degradation",
+        "index": 0,
+        "seed": 29080000,
+        "seed_purpose": "world_smoke",
+        "family_index": 4,
+        "pair_id": "a9f58d7e76412b51834d7e00",
+        "members": [
+          "null",
+          "harm"
+        ]
+      },
+      "member": "harm",
+      "scenario_id": "run-2befec18d6b7e69b0b975a7712f353fc",
+      "seed": 29080000,
+      "seed_registry_version": "2.1",
+      "config_sha256": "f973589e8717bac2408bcc46b2756eb6084ea400d139c3c35bc09628185f6aeb",
+      "command_log_sha256": "09232620a4a1044c5dc0e350410557b6707602a6972264e1f7ad250a7b19ec17",
+      "run_sha256": "fae23cf6f93f6ec8c7c8829ee12ad7f7ed888a07909ecd821e3d5ca49dd345e1",
+      "exogenous_sha256": "1cf6d47c36cb0abeb9d72f3def085a27d025d392e3457cf7babad873f599732f",
+      "public_directory": "public",
+      "truth_directory": "evaluator",
+      "data_sha256": {
+        "public/decisions.jsonl": "2b25ac47cf9d1081a79f3bc37d42cf5ff11d9be01ed2a31b06a97cf9a1042fdd",
+        "public/metadata.json": "b23b3efeab46bfaf9441884d1d8a180ae5c26a2e256bc077e8dc470ab008a37a",
+        "public/records.jsonl": "c5131fb90f39c7967273a05dd26c41b7d5fc18db9e9e0f5e5b43072c8219693b",
+        "public/resource_trace/hosts.csv": "7f5e4d1e54f0d964907904388a881fe905a0c8ed1c45f489db16208e026d961a",
+        "public/resource_trace/services.csv": "341ac03b0bc20746ad67c200a0cd2c849945945f0d0f7dcc45baa388d1f74115",
+        "public/scores.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "public/windows.jsonl": "75e650aacb9d0c265fa693fd322e7e0ddb5c48673c4412f1b27b28be63a0b147",
+        "evaluator/intervention_label.json": "0f025a071b30948ebbebcb9ac34dc72378997f2cbf6e7e2ca8bbb30aa6f5d066",
+        "evaluator/metadata.json": "cd5e7aaf4b8354ab3e8029e5a95a252e378a3768fd3604b6b9e0521c88b4f8c8",
+        "evaluator/truth.jsonl": "adc115e321a20dfc815ee9a5eb5500df0107500e7cde2caf3c85123e900d70ae"
+      },
+      "source_sha256": "8d41256c2c1d6948ed7fd3df4a48d1be4dd7f176e445a1146d14505305035abd",
+      "catalog_sha256": "0cc53664bb0620f5021af25ee68591f8a0366b22281992ec68fbb342f8ab645d",
+      "detector_status": "DETECTOR NOT CONNECTED"
+    }
+  }
+}

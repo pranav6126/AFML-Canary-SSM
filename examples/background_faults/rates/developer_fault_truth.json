@@ -1,0 +1,834 @@
+{
+  "developer_only": true,
+  "faults": [
+    {
+      "fault_id": "background-1",
+      "kind": "cpu_throttle",
+      "scope": "host",
+      "target": "host-01-03",
+      "start_tick": 15,
+      "duration": 3,
+      "end_tick": 18,
+      "severity": 0.7907539624489007,
+      "seed": 2852126462,
+      "recovery": "restore",
+      "host_ids": [
+        "host-01-03"
+      ],
+      "origin": "platform",
+      "source": "background",
+      "active": false
+    },
+    {
+      "fault_id": "background-2",
+      "kind": "network_degradation",
+      "scope": "rack",
+      "target": "rack-01",
+      "start_tick": 23,
+      "duration": 8,
+      "end_tick": 31,
+      "severity": 0.6338661045683314,
+      "seed": 1850634821,
+      "recovery": "restore",
+      "host_ids": [
+        "host-01-01",
+        "host-01-02",
+        "host-01-03",
+        "host-01-04",
+        "host-01-05"
+      ],
+      "origin": "platform",
+      "source": "background",
+      "active": false
+    },
+    {
+      "fault_id": "background-3",
+      "kind": "network_degradation",
+      "scope": "rack",
+      "target": "rack-03",
+      "start_tick": 30,
+      "duration": 5,
+      "end_tick": 35,
+      "severity": 0.7437327757203509,
+      "seed": 4293490331,
+      "recovery": "restore",
+      "host_ids": [
+        "host-03-01",
+        "host-03-02",
+        "host-03-03",
+        "host-03-04",
+        "host-03-05"
+      ],
+      "origin": "platform",
+      "source": "background",
+      "active": false
+    },
+    {
+      "fault_id": "background-4",
+      "kind": "cpu_throttle",
+      "scope": "host",
+      "target": "host-02-01",
+      "start_tick": 35,
+      "duration": 3,
+      "end_tick": 38,
+      "severity": 0.6423776544051739,
+      "seed": 2644852136,
+      "recovery": "restore",
+      "host_ids": [
+        "host-02-01"
+      ],
+      "origin": "platform",
+      "source": "background",
+      "active": false
+    },
+    {
+      "fault_id": "background-5",
+      "kind": "cpu_throttle",
+      "scope": "host",
+      "target": "host-04-05",
+      "start_tick": 36,
+      "duration": 8,
+      "end_tick": 44,
+      "severity": 0.6987686661205031,
+      "seed": 1722466005,
+      "recovery": "restore",
+      "host_ids": [
+        "host-04-05"
+      ],
+      "origin": "platform",
+      "source": "background",
+      "active": false
+    },
+    {
+      "fault_id": "background-6",
+      "kind": "cpu_throttle",
+      "scope": "host",
+      "target": "host-01-03",
+      "start_tick": 47,
+      "duration": 3,
+      "end_tick": 50,
+      "severity": 0.5313341096823737,
+      "seed": 282184044,
+      "recovery": "restore",
+      "host_ids": [
+        "host-01-03"
+      ],
+      "origin": "platform",
+      "source": "background",
+      "active": false
+    },
+    {
+      "fault_id": "background-7",
+      "kind": "cpu_throttle",
+      "scope": "host",
+      "target": "host-02-04",
+      "start_tick": 47,
+      "duration": 8,
+      "end_tick": 55,
+      "severity": 0.7659775999834035,
+      "seed": 4239443794,
+      "recovery": "restore",
+      "host_ids": [
+        "host-02-04"
+      ],
+      "origin": "platform",
+      "source": "background",
+      "active": false
+    },
+    {
+      "fault_id": "background-8",
+      "kind": "network_degradation",
+      "scope": "rack",
+      "target": "rack-03",
+      "start_tick": 63,
+      "duration": 7,
+      "end_tick": 70,
+      "severity": 0.7869092115167384,
+      "seed": 1254298901,
+      "recovery": "restore",
+      "host_ids": [
+        "host-03-01",
+        "host-03-02",
+        "host-03-03",
+        "host-03-04",
+        "host-03-05"
+      ],
+      "origin": "platform",
+      "source": "background",
+      "active": false
+    },
+    {
+      "fault_id": "background-9",
+      "kind": "cpu_throttle",
+      "scope": "host",
+      "target": "host-01-02",
+      "start_tick": 65,
+      "duration": 3,
+      "end_tick": 68,
+      "severity": 0.5051275379727787,
+      "seed": 2253724481,
+      "recovery": "restore",
+      "host_ids": [
+        "host-01-02"
+      ],
+      "origin": "platform",
+      "source": "background",
+      "active": false
+    },
+    {
+      "fault_id": "background-10",
+      "kind": "network_degradation",
+      "scope": "rack",
+      "target": "rack-02",
+      "start_tick": 69,
+      "duration": 9,
+      "end_tick": 78,
+      "severity": 0.6494572574563632,
+      "seed": 789859946,
+      "recovery": "restore",
+      "host_ids": [
+        "host-02-01",
+        "host-02-02",
+        "host-02-03",
+        "host-02-04",
+        "host-02-05"
+      ],
+      "origin": "platform",
+      "source": "background",
+      "active": false
+    },
+    {
+      "fault_id": "background-11",
+      "kind": "cpu_throttle",
+      "scope": "host",
+      "target": "host-01-01",
+      "start_tick": 72,
+      "duration": 6,
+      "end_tick": 78,
+      "severity": 0.6136408075672534,
+      "seed": 3409225880,
+      "recovery": "restore",
+      "host_ids": [
+        "host-01-01"
+      ],
+      "origin": "platform",
+      "source": "background",
+      "active": false
+    },
+    {
+      "fault_id": "background-12",
+      "kind": "cpu_throttle",
+      "scope": "host",
+      "target": "host-03-02",
+      "start_tick": 73,
+      "duration": 7,
+      "end_tick": 80,
+      "severity": 0.4635162397473546,
+      "seed": 884080470,
+      "recovery": "restore",
+      "host_ids": [
+        "host-03-02"
+      ],
+      "origin": "platform",
+      "source": "background",
+      "active": false
+    },
+    {
+      "fault_id": "background-13",
+      "kind": "cpu_throttle",
+      "scope": "host",
+      "target": "host-03-03",
+      "start_tick": 86,
+      "duration": 3,
+      "end_tick": 89,
+      "severity": 0.67456299033322,
+      "seed": 2780265667,
+      "recovery": "restore",
+      "host_ids": [
+        "host-03-03"
+      ],
+      "origin": "platform",
+      "source": "background",
+      "active": false
+    },
+    {
+      "fault_id": "background-14",
+      "kind": "cpu_throttle",
+      "scope": "host",
+      "target": "host-03-01",
+      "start_tick": 97,
+      "duration": 7,
+      "end_tick": 104,
+      "severity": 0.450751794725796,
+      "seed": 2034275737,
+      "recovery": "restore",
+      "host_ids": [
+        "host-03-01"
+      ],
+      "origin": "platform",
+      "source": "background",
+      "active": false
+    },
+    {
+      "fault_id": "background-15",
+      "kind": "cpu_throttle",
+      "scope": "host",
+      "target": "host-03-05",
+      "start_tick": 109,
+      "duration": 4,
+      "end_tick": 113,
+      "severity": 0.5082073070441363,
+      "seed": 3731444082,
+      "recovery": "restore",
+      "host_ids": [
+        "host-03-05"
+      ],
+      "origin": "platform",
+      "source": "background",
+      "active": false
+    },
+    {
+      "fault_id": "background-16",
+      "kind": "network_degradation",
+      "scope": "rack",
+      "target": "rack-02",
+      "start_tick": 109,
+      "duration": 5,
+      "end_tick": 114,
+      "severity": 0.6849019770300336,
+      "seed": 2394216383,
+      "recovery": "restore",
+      "host_ids": [
+        "host-02-01",
+        "host-02-02",
+        "host-02-03",
+        "host-02-04",
+        "host-02-05"
+      ],
+      "origin": "platform",
+      "source": "background",
+      "active": false
+    },
+    {
+      "fault_id": "background-17",
+      "kind": "cpu_throttle",
+      "scope": "host",
+      "target": "host-02-02",
+      "start_tick": 118,
+      "duration": 7,
+      "end_tick": 125,
+      "severity": 0.49206319507054846,
+      "seed": 1179394424,
+      "recovery": "restore",
+      "host_ids": [
+        "host-02-02"
+      ],
+      "origin": "platform",
+      "source": "background",
+      "active": false
+    },
+    {
+      "fault_id": "background-18",
+      "kind": "cpu_throttle",
+      "scope": "host",
+      "target": "host-03-03",
+      "start_tick": 126,
+      "duration": 7,
+      "end_tick": 133,
+      "severity": 0.7511387959346247,
+      "seed": 3547951260,
+      "recovery": "restore",
+      "host_ids": [
+        "host-03-03"
+      ],
+      "origin": "platform",
+      "source": "background",
+      "active": false
+    },
+    {
+      "fault_id": "background-19",
+      "kind": "cpu_throttle",
+      "scope": "host",
+      "target": "host-04-04",
+      "start_tick": 129,
+      "duration": 3,
+      "end_tick": 132,
+      "severity": 0.5580816004023184,
+      "seed": 2270944875,
+      "recovery": "restore",
+      "host_ids": [
+        "host-04-04"
+      ],
+      "origin": "platform",
+      "source": "background",
+      "active": false
+    },
+    {
+      "fault_id": "background-20",
+      "kind": "cpu_throttle",
+      "scope": "host",
+      "target": "host-01-04",
+      "start_tick": 141,
+      "duration": 5,
+      "end_tick": 146,
+      "severity": 0.6552271710735262,
+      "seed": 476786272,
+      "recovery": "restore",
+      "host_ids": [
+        "host-01-04"
+      ],
+      "origin": "platform",
+      "source": "background",
+      "active": false
+    },
+    {
+      "fault_id": "background-21",
+      "kind": "cpu_throttle",
+      "scope": "host",
+      "target": "host-01-01",
+      "start_tick": 148,
+      "duration": 4,
+      "end_tick": 152,
+      "severity": 0.5390114112179125,
+      "seed": 2013678902,
+      "recovery": "restore",
+      "host_ids": [
+        "host-01-01"
+      ],
+      "origin": "platform",
+      "source": "background",
+      "active": false
+    },
+    {
+      "fault_id": "background-22",
+      "kind": "network_degradation",
+      "scope": "rack",
+      "target": "rack-02",
+      "start_tick": 148,
+      "duration": 7,
+      "end_tick": 155,
+      "severity": 0.889209908206142,
+      "seed": 59795924,
+      "recovery": "restore",
+      "host_ids": [
+        "host-02-01",
+        "host-02-02",
+        "host-02-03",
+        "host-02-04",
+        "host-02-05"
+      ],
+      "origin": "platform",
+      "source": "background",
+      "active": false
+    },
+    {
+      "fault_id": "background-23",
+      "kind": "cpu_throttle",
+      "scope": "host",
+      "target": "host-01-02",
+      "start_tick": 155,
+      "duration": 7,
+      "end_tick": 162,
+      "severity": 0.5744690181467659,
+      "seed": 582633715,
+      "recovery": "restore",
+      "host_ids": [
+        "host-01-02"
+      ],
+      "origin": "platform",
+      "source": "background",
+      "active": false
+    },
+    {
+      "fault_id": "background-24",
+      "kind": "cpu_throttle",
+      "scope": "host",
+      "target": "host-01-05",
+      "start_tick": 157,
+      "duration": 8,
+      "end_tick": 165,
+      "severity": 0.43650261982018845,
+      "seed": 2829795612,
+      "recovery": "restore",
+      "host_ids": [
+        "host-01-05"
+      ],
+      "origin": "platform",
+      "source": "background",
+      "active": false
+    },
+    {
+      "fault_id": "background-25",
+      "kind": "cpu_throttle",
+      "scope": "host",
+      "target": "host-04-02",
+      "start_tick": 164,
+      "duration": 6,
+      "end_tick": 170,
+      "severity": 0.50948673397336,
+      "seed": 2868149766,
+      "recovery": "restore",
+      "host_ids": [
+        "host-04-02"
+      ],
+      "origin": "platform",
+      "source": "background",
+      "active": false
+    },
+    {
+      "fault_id": "background-26",
+      "kind": "cpu_throttle",
+      "scope": "host",
+      "target": "host-01-03",
+      "start_tick": 165,
+      "duration": 5,
+      "end_tick": 170,
+      "severity": 0.4720817189468772,
+      "seed": 851235632,
+      "recovery": "restore",
+      "host_ids": [
+        "host-01-03"
+      ],
+      "origin": "platform",
+      "source": "background",
+      "active": false
+    },
+    {
+      "fault_id": "background-27",
+      "kind": "cpu_throttle",
+      "scope": "host",
+      "target": "host-04-05",
+      "start_tick": 171,
+      "duration": 3,
+      "end_tick": 174,
+      "severity": 0.6732446654319643,
+      "seed": 3220403451,
+      "recovery": "restore",
+      "host_ids": [
+        "host-04-05"
+      ],
+      "origin": "platform",
+      "source": "background",
+      "active": false
+    },
+    {
+      "fault_id": "background-28",
+      "kind": "cpu_throttle",
+      "scope": "host",
+      "target": "host-01-04",
+      "start_tick": 172,
+      "duration": 3,
+      "end_tick": 175,
+      "severity": 0.4603013046586028,
+      "seed": 1042577994,
+      "recovery": "restore",
+      "host_ids": [
+        "host-01-04"
+      ],
+      "origin": "platform",
+      "source": "background",
+      "active": false
+    },
+    {
+      "fault_id": "background-29",
+      "kind": "cpu_throttle",
+      "scope": "host",
+      "target": "host-02-03",
+      "start_tick": 179,
+      "duration": 6,
+      "end_tick": 185,
+      "severity": 0.4322016704916236,
+      "seed": 4217201228,
+      "recovery": "restore",
+      "host_ids": [
+        "host-02-03"
+      ],
+      "origin": "platform",
+      "source": "background",
+      "active": false
+    },
+    {
+      "fault_id": "background-30",
+      "kind": "cpu_throttle",
+      "scope": "host",
+      "target": "host-01-05",
+      "start_tick": 188,
+      "duration": 4,
+      "end_tick": 192,
+      "severity": 0.7160869318023968,
+      "seed": 1284478758,
+      "recovery": "restore",
+      "host_ids": [
+        "host-01-05"
+      ],
+      "origin": "platform",
+      "source": "background",
+      "active": false
+    },
+    {
+      "fault_id": "background-31",
+      "kind": "cpu_throttle",
+      "scope": "host",
+      "target": "host-01-01",
+      "start_tick": 193,
+      "duration": 8,
+      "end_tick": 201,
+      "severity": 0.5667739710300783,
+      "seed": 801540476,
+      "recovery": "restore",
+      "host_ids": [
+        "host-01-01"
+      ],
+      "origin": "platform",
+      "source": "background",
+      "active": false
+    },
+    {
+      "fault_id": "background-32",
+      "kind": "network_degradation",
+      "scope": "rack",
+      "target": "rack-01",
+      "start_tick": 230,
+      "duration": 4,
+      "end_tick": 234,
+      "severity": 0.7249555419829078,
+      "seed": 1793791834,
+      "recovery": "restore",
+      "host_ids": [
+        "host-01-01",
+        "host-01-02",
+        "host-01-03",
+        "host-01-04",
+        "host-01-05"
+      ],
+      "origin": "platform",
+      "source": "background",
+      "active": false
+    },
+    {
+      "fault_id": "background-33",
+      "kind": "cpu_throttle",
+      "scope": "host",
+      "target": "host-01-01",
+      "start_tick": 241,
+      "duration": 4,
+      "end_tick": 245,
+      "severity": 0.4407924772165265,
+      "seed": 2687193056,
+      "recovery": "restore",
+      "host_ids": [
+        "host-01-01"
+      ],
+      "origin": "platform",
+      "source": "background",
+      "active": false
+    },
+    {
+      "fault_id": "background-34",
+      "kind": "cpu_throttle",
+      "scope": "host",
+      "target": "host-01-03",
+      "start_tick": 241,
+      "duration": 4,
+      "end_tick": 245,
+      "severity": 0.5437717596346352,
+      "seed": 1134028709,
+      "recovery": "restore",
+      "host_ids": [
+        "host-01-03"
+      ],
+      "origin": "platform",
+      "source": "background",
+      "active": false
+    },
+    {
+      "fault_id": "background-35",
+      "kind": "cpu_throttle",
+      "scope": "host",
+      "target": "host-04-04",
+      "start_tick": 242,
+      "duration": 6,
+      "end_tick": 248,
+      "severity": 0.7302667172438996,
+      "seed": 3430011767,
+      "recovery": "restore",
+      "host_ids": [
+        "host-04-04"
+      ],
+      "origin": "platform",
+      "source": "background",
+      "active": false
+    },
+    {
+      "fault_id": "background-36",
+      "kind": "network_degradation",
+      "scope": "rack",
+      "target": "rack-04",
+      "start_tick": 253,
+      "duration": 6,
+      "end_tick": 259,
+      "severity": 0.5683919544396773,
+      "seed": 1330959333,
+      "recovery": "restore",
+      "host_ids": [
+        "host-04-01",
+        "host-04-02",
+        "host-04-03",
+        "host-04-04",
+        "host-04-05"
+      ],
+      "origin": "platform",
+      "source": "background",
+      "active": false
+    },
+    {
+      "fault_id": "background-37",
+      "kind": "cpu_throttle",
+      "scope": "host",
+      "target": "host-01-05",
+      "start_tick": 255,
+      "duration": 7,
+      "end_tick": 262,
+      "severity": 0.5944479310636586,
+      "seed": 437270472,
+      "recovery": "restore",
+      "host_ids": [
+        "host-01-05"
+      ],
+      "origin": "platform",
+      "source": "background",
+      "active": false
+    },
+    {
+      "fault_id": "background-38",
+      "kind": "cpu_throttle",
+      "scope": "host",
+      "target": "host-03-04",
+      "start_tick": 274,
+      "duration": 7,
+      "end_tick": 281,
+      "severity": 0.6234587554192774,
+      "seed": 1539369123,
+      "recovery": "restore",
+      "host_ids": [
+        "host-03-04"
+      ],
+      "origin": "platform",
+      "source": "background",
+      "active": false
+    },
+    {
+      "fault_id": "background-39",
+      "kind": "network_degradation",
+      "scope": "rack",
+      "target": "rack-02",
+      "start_tick": 275,
+      "duration": 6,
+      "end_tick": 281,
+      "severity": 0.5486612136962782,
+      "seed": 2534005193,
+      "recovery": "restore",
+      "host_ids": [
+        "host-02-01",
+        "host-02-02",
+        "host-02-03",
+        "host-02-04",
+        "host-02-05"
+      ],
+      "origin": "platform",
+      "source": "background",
+      "active": false
+    },
+    {
+      "fault_id": "background-40",
+      "kind": "demand_surge",
+      "scope": "world",
+      "target": "world",
+      "start_tick": 285,
+      "duration": 7,
+      "end_tick": 292,
+      "severity": 0.36159223635876614,
+      "seed": 1718188927,
+      "recovery": "restore",
+      "host_ids": [
+        "host-01-01",
+        "host-01-02",
+        "host-01-03",
+        "host-01-04",
+        "host-01-05",
+        "host-02-01",
+        "host-02-02",
+        "host-02-03",
+        "host-02-04",
+        "host-02-05",
+        "host-03-01",
+        "host-03-02",
+        "host-03-03",
+        "host-03-04",
+        "host-03-05",
+        "host-04-01",
+        "host-04-02",
+        "host-04-03",
+        "host-04-04",
+        "host-04-05"
+      ],
+      "origin": "platform",
+      "source": "background",
+      "active": false
+    },
+    {
+      "fault_id": "background-41",
+      "kind": "cpu_throttle",
+      "scope": "host",
+      "target": "host-02-01",
+      "start_tick": 288,
+      "duration": 5,
+      "end_tick": 293,
+      "severity": 0.6946201808883345,
+      "seed": 173659314,
+      "recovery": "restore",
+      "host_ids": [
+        "host-02-01"
+      ],
+      "origin": "platform",
+      "source": "background",
+      "active": false
+    },
+    {
+      "fault_id": "background-42",
+      "kind": "cpu_throttle",
+      "scope": "host",
+      "target": "host-01-01",
+      "start_tick": 290,
+      "duration": 8,
+      "end_tick": 298,
+      "severity": 0.5653863853699177,
+      "seed": 1051522346,
+      "recovery": "restore",
+      "host_ids": [
+        "host-01-01"
+      ],
+      "origin": "platform",
+      "source": "background",
+      "active": false
+    },
+    {
+      "fault_id": "background-43",
+      "kind": "cpu_throttle",
+      "scope": "host",
+      "target": "host-02-02",
+      "start_tick": 298,
+      "duration": 6,
+      "end_tick": 304,
+      "severity": 0.42094687328283226,
+      "seed": 3058059554,
+      "recovery": "restore",
+      "host_ids": [
+        "host-02-02"
+      ],
+      "origin": "platform",
+      "source": "background",
+      "active": false
+    }
+  ]
+}

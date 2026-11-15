@@ -1,0 +1,12 @@
+scenario,exogenous_uniforms_identical,noncanary_max_abs_log_latency_delta,noncanary_routing_request_difference,noncanary_queue_divergence_windows,canary_queue_divergence_windows,observed_cross_host_interference,additive_identity_required,online_counterfactual_observed,coupling_contract
+healthy,True,0.0,0,0,0,False,False,False,fixed cohort routing and local queues; rollback can restart whole service
+shared_surge,True,0.0,0,0,0,False,False,False,fixed cohort routing and local queues; rollback can restart whole service
+host_fault,True,0.0,0,0,0,False,False,False,fixed cohort routing and local queues; rollback can restart whole service
+rack_outage,True,0.0,0,0,0,False,False,False,fixed cohort routing and local queues; rollback can restart whole service
+broad_release_harm,True,0.0,0,0,480,False,False,False,fixed cohort routing and local queues; rollback can restart whole service
+transient_harm,True,0.0,0,0,72,False,False,False,fixed cohort routing and local queues; rollback can restart whole service
+memory_retention_no_latency,True,0.0,0,0,0,False,False,False,fixed cohort routing and local queues; rollback can restart whole service
+memory_retention_latency,True,0.0,0,0,0,False,False,False,fixed cohort routing and local queues; rollback can restart whole service
+contaminated_controls,True,0.0,0,0,0,False,False,False,fixed cohort routing and local queues; rollback can restart whole service
+missing_telemetry,True,0.0,0,0,0,False,False,False,fixed cohort routing and local queues; rollback can restart whole service
+recovery,True,0.0,0,0,272,False,False,False,fixed cohort routing and local queues; rollback can restart whole service

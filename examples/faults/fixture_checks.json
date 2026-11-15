@@ -1,0 +1,75 @@
+{
+  "fixtures": [
+    {
+      "kind": "cpu_throttle",
+      "checks": {
+        "deterministic_replay": true,
+        "before_available": true,
+        "recovered_available": true,
+        "memory_bounded": true,
+        "no_truth_in_telemetry": true,
+        "effect": true,
+        "scope": true,
+        "recovery": true
+      },
+      "passed": true
+    },
+    {
+      "kind": "memory_pressure",
+      "checks": {
+        "deterministic_replay": true,
+        "before_available": true,
+        "recovered_available": true,
+        "memory_bounded": true,
+        "no_truth_in_telemetry": true,
+        "effect": true,
+        "scope": true,
+        "recovery": true
+      },
+      "passed": true
+    },
+    {
+      "kind": "service_crash",
+      "checks": {
+        "deterministic_replay": true,
+        "before_available": true,
+        "recovered_available": true,
+        "memory_bounded": true,
+        "no_truth_in_telemetry": true,
+        "effect": true,
+        "scope": true,
+        "recovery": true
+      },
+      "passed": true
+    },
+    {
+      "kind": "network_degradation",
+      "checks": {
+        "deterministic_replay": true,
+        "before_available": true,
+        "recovered_available": true,
+        "memory_bounded": true,
+        "no_truth_in_telemetry": true,
+        "effect": true,
+        "scope": true,
+        "recovery": true
+      },
+      "passed": true
+    },
+    {
+      "kind": "demand_surge",
+      "checks": {
+        "deterministic_replay": true,
+        "before_available": true,
+        "recovered_available": true,
+        "memory_bounded": true,
+        "no_truth_in_telemetry": true,
+        "effect": true,
+        "scope": true,
+        "recovery": true
+      },
+      "passed": true
+    }
+  ],
+  "passed": true
+}

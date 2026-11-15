@@ -1,0 +1,141 @@
+{
+  "signature": "ea40d864c38b721136cd830592e6ebabe3142b8bc8c98c20162e17c4fc38cf54",
+  "score_sha256": "e3d0a565fa56df2919602ede31a1fbb83e6aaca87a34a769f00bf7b4d0dcb8ef",
+  "public_file_sha256": "7616399ead9ffe21f905b8b52647b42d4d85a2439a194eaec7389a79804b2eb3",
+  "truth_file_sha256": "4d867e7eaa58d7ccf41ba80198e245d26af71fb5886022d74cd06646ddfbe28d",
+  "truth_path": "evaluator/truth.npz",
+  "rows": [
+    {
+      "method": "adj_ewma",
+      "run_id": "r-4a494e75da70e644757991ed",
+      "seed": 36693094,
+      "role": "threshold-calibration",
+      "null_family": "host_fault",
+      "maximum": 2.8529008275409886,
+      "eligible_windows": 120,
+      "public_sha256": "554b22e6e4d3269cf5bfa03c55c226018c0e81795b887915a60878d55e2d4248",
+      "sample_index": 594,
+      "score_sha256": "e3d0a565fa56df2919602ede31a1fbb83e6aaca87a34a769f00bf7b4d0dcb8ef"
+    },
+    {
+      "method": "adj_cusum",
+      "run_id": "r-4a494e75da70e644757991ed",
+      "seed": 36693094,
+      "role": "threshold-calibration",
+      "null_family": "host_fault",
+      "maximum": 14.668431595529288,
+      "eligible_windows": 120,
+      "public_sha256": "554b22e6e4d3269cf5bfa03c55c226018c0e81795b887915a60878d55e2d4248",
+      "sample_index": 594,
+      "score_sha256": "e3d0a565fa56df2919602ede31a1fbb83e6aaca87a34a769f00bf7b4d0dcb8ef"
+    },
+    {
+      "method": "topk_cusum",
+      "run_id": "r-4a494e75da70e644757991ed",
+      "seed": 36693094,
+      "role": "threshold-calibration",
+      "null_family": "host_fault",
+      "maximum": 29.62291828286409,
+      "eligible_windows": 120,
+      "public_sha256": "554b22e6e4d3269cf5bfa03c55c226018c0e81795b887915a60878d55e2d4248",
+      "sample_index": 594,
+      "score_sha256": "e3d0a565fa56df2919602ede31a1fbb83e6aaca87a34a769f00bf7b4d0dcb8ef"
+    },
+    {
+      "method": "independent",
+      "run_id": "r-4a494e75da70e644757991ed",
+      "seed": 36693094,
+      "role": "threshold-calibration",
+      "null_family": "host_fault",
+      "maximum": -2.6716378209363247,
+      "eligible_windows": 120,
+      "public_sha256": "554b22e6e4d3269cf5bfa03c55c226018c0e81795b887915a60878d55e2d4248",
+      "sample_index": 594,
+      "score_sha256": "e3d0a565fa56df2919602ede31a1fbb83e6aaca87a34a769f00bf7b4d0dcb8ef"
+    },
+    {
+      "method": "complete_pooling",
+      "run_id": "r-4a494e75da70e644757991ed",
+      "seed": 36693094,
+      "role": "threshold-calibration",
+      "null_family": "host_fault",
+      "maximum": -7.618832689608588,
+      "eligible_windows": 120,
+      "public_sha256": "554b22e6e4d3269cf5bfa03c55c226018c0e81795b887915a60878d55e2d4248",
+      "sample_index": 594,
+      "score_sha256": "e3d0a565fa56df2919602ede31a1fbb83e6aaca87a34a769f00bf7b4d0dcb8ef"
+    },
+    {
+      "method": "class_host",
+      "run_id": "r-4a494e75da70e644757991ed",
+      "seed": 36693094,
+      "role": "threshold-calibration",
+      "null_family": "host_fault",
+      "maximum": -1.5051893889879904,
+      "eligible_windows": 120,
+      "public_sha256": "554b22e6e4d3269cf5bfa03c55c226018c0e81795b887915a60878d55e2d4248",
+      "sample_index": 594,
+      "score_sha256": "e3d0a565fa56df2919602ede31a1fbb83e6aaca87a34a769f00bf7b4d0dcb8ef"
+    },
+    {
+      "method": "factor_off",
+      "run_id": "r-4a494e75da70e644757991ed",
+      "seed": 36693094,
+      "role": "threshold-calibration",
+      "null_family": "host_fault",
+      "maximum": -0.8433336120343147,
+      "eligible_windows": 120,
+      "public_sha256": "554b22e6e4d3269cf5bfa03c55c226018c0e81795b887915a60878d55e2d4248",
+      "sample_index": 594,
+      "score_sha256": "e3d0a565fa56df2919602ede31a1fbb83e6aaca87a34a769f00bf7b4d0dcb8ef"
+    },
+    {
+      "method": "persistence_off",
+      "run_id": "r-4a494e75da70e644757991ed",
+      "seed": 36693094,
+      "role": "threshold-calibration",
+      "null_family": "host_fault",
+      "maximum": -1.014871868418128,
+      "eligible_windows": 120,
+      "public_sha256": "554b22e6e4d3269cf5bfa03c55c226018c0e81795b887915a60878d55e2d4248",
+      "sample_index": 594,
+      "score_sha256": "e3d0a565fa56df2919602ede31a1fbb83e6aaca87a34a769f00bf7b4d0dcb8ef"
+    },
+    {
+      "method": "ar_off",
+      "run_id": "r-4a494e75da70e644757991ed",
+      "seed": 36693094,
+      "role": "threshold-calibration",
+      "null_family": "host_fault",
+      "maximum": -0.5973485972678915,
+      "eligible_windows": 120,
+      "public_sha256": "554b22e6e4d3269cf5bfa03c55c226018c0e81795b887915a60878d55e2d4248",
+      "sample_index": 594,
+      "score_sha256": "e3d0a565fa56df2919602ede31a1fbb83e6aaca87a34a769f00bf7b4d0dcb8ef"
+    },
+    {
+      "method": "weaker_pooling",
+      "run_id": "r-4a494e75da70e644757991ed",
+      "seed": 36693094,
+      "role": "threshold-calibration",
+      "null_family": "host_fault",
+      "maximum": -0.5239528462019226,
+      "eligible_windows": 120,
+      "public_sha256": "554b22e6e4d3269cf5bfa03c55c226018c0e81795b887915a60878d55e2d4248",
+      "sample_index": 594,
+      "score_sha256": "e3d0a565fa56df2919602ede31a1fbb83e6aaca87a34a769f00bf7b4d0dcb8ef"
+    },
+    {
+      "method": "stronger_pooling",
+      "run_id": "r-4a494e75da70e644757991ed",
+      "seed": 36693094,
+      "role": "threshold-calibration",
+      "null_family": "host_fault",
+      "maximum": -3.769279918174363,
+      "eligible_windows": 120,
+      "public_sha256": "554b22e6e4d3269cf5bfa03c55c226018c0e81795b887915a60878d55e2d4248",
+      "sample_index": 594,
+      "score_sha256": "e3d0a565fa56df2919602ede31a1fbb83e6aaca87a34a769f00bf7b4d0dcb8ef"
+    }
+  ]
+}

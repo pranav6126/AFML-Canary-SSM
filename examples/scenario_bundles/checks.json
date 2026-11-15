@@ -1,0 +1,212 @@
+{
+  "role_materialized": "smoke",
+  "registered_roles": [
+    "smoke",
+    "development",
+    "threshold-calibration",
+    "null-validation",
+    "final-test"
+  ],
+  "results": [
+    {
+      "pair_id": "1606b86bd4359d90b26607ba",
+      "family": "healthy",
+      "role": "smoke",
+      "generator_id": "resource-world-scenarios-v1",
+      "checks": {
+        "same_exogenous_uniforms": true,
+        "same_exogenous_rng_state": true,
+        "same_pre_intervention_resources": true,
+        "paired_exogenous_enabled": true,
+        "pair_one_role": true,
+        "verified_replay": true,
+        "expected_resource_behavior": true
+      },
+      "passed": true,
+      "endogenous_divergence": false,
+      "additive_equality_required": false
+    },
+    {
+      "pair_id": "fc198049165b0e3e5d44f135",
+      "family": "host_fault",
+      "role": "smoke",
+      "generator_id": "resource-world-scenarios-v1",
+      "checks": {
+        "same_exogenous_uniforms": true,
+        "same_exogenous_rng_state": true,
+        "same_pre_intervention_resources": true,
+        "paired_exogenous_enabled": true,
+        "pair_one_role": true,
+        "verified_replay": true,
+        "expected_resource_behavior": true
+      },
+      "passed": true,
+      "endogenous_divergence": true,
+      "additive_equality_required": false
+    },
+    {
+      "pair_id": "f548a926c61c5e50753eaa0b",
+      "family": "rack_fault",
+      "role": "smoke",
+      "generator_id": "resource-world-scenarios-v1",
+      "checks": {
+        "same_exogenous_uniforms": true,
+        "same_exogenous_rng_state": true,
+        "same_pre_intervention_resources": true,
+        "paired_exogenous_enabled": true,
+        "pair_one_role": true,
+        "verified_replay": true,
+        "expected_resource_behavior": true
+      },
+      "passed": true,
+      "endogenous_divergence": true,
+      "additive_equality_required": false
+    },
+    {
+      "pair_id": "0797a554a20a96dc0b5a0568",
+      "family": "shared_demand_surge",
+      "role": "smoke",
+      "generator_id": "resource-world-scenarios-v1",
+      "checks": {
+        "same_exogenous_uniforms": true,
+        "same_exogenous_rng_state": true,
+        "same_pre_intervention_resources": true,
+        "paired_exogenous_enabled": true,
+        "pair_one_role": true,
+        "verified_replay": true,
+        "expected_resource_behavior": true
+      },
+      "passed": true,
+      "endogenous_divergence": true,
+      "additive_equality_required": false
+    },
+    {
+      "pair_id": "a9f58d7e76412b51834d7e00",
+      "family": "transient_degradation",
+      "role": "smoke",
+      "generator_id": "resource-world-scenarios-v1",
+      "checks": {
+        "same_exogenous_uniforms": true,
+        "same_exogenous_rng_state": true,
+        "same_pre_intervention_resources": true,
+        "paired_exogenous_enabled": true,
+        "pair_one_role": true,
+        "verified_replay": true,
+        "expected_resource_behavior": true
+      },
+      "passed": true,
+      "endogenous_divergence": true,
+      "additive_equality_required": false
+    },
+    {
+      "pair_id": "58c04ef1f15dd86cbba0767a",
+      "family": "persistent_degradation",
+      "role": "smoke",
+      "generator_id": "resource-world-scenarios-v1",
+      "checks": {
+        "same_exogenous_uniforms": true,
+        "same_exogenous_rng_state": true,
+        "same_pre_intervention_resources": true,
+        "paired_exogenous_enabled": true,
+        "pair_one_role": true,
+        "verified_replay": true,
+        "expected_resource_behavior": true
+      },
+      "passed": true,
+      "endogenous_divergence": true,
+      "additive_equality_required": false
+    },
+    {
+      "pair_id": "40b45ea4c2da8d83ec68bf0e",
+      "family": "recovery",
+      "role": "smoke",
+      "generator_id": "resource-world-scenarios-v1",
+      "checks": {
+        "same_exogenous_uniforms": true,
+        "same_exogenous_rng_state": true,
+        "same_pre_intervention_resources": true,
+        "paired_exogenous_enabled": true,
+        "pair_one_role": true,
+        "verified_replay": true,
+        "expected_resource_behavior": true
+      },
+      "passed": true,
+      "endogenous_divergence": true,
+      "additive_equality_required": false
+    },
+    {
+      "pair_id": "00533c79f8f90b6a568d69e3",
+      "family": "additive_baseline",
+      "role": "smoke",
+      "generator_id": "statistical-additive-latency-v1",
+      "checks": {
+        "exact_additive_identity_to_float_precision": true,
+        "same_workload": true,
+        "same_factor": true,
+        "same_noise": true,
+        "same_observed_mask": true,
+        "same_arrival_masks": true,
+        "same_request_counts": true
+      },
+      "passed": true,
+      "max_abs_additive_residual": 0.0,
+      "additive_equality_required": true
+    },
+    {
+      "pair_id": "b999e1b310d9c898f1e5bed4",
+      "family": "additive_transient",
+      "role": "smoke",
+      "generator_id": "statistical-additive-latency-v1",
+      "checks": {
+        "exact_additive_identity_to_float_precision": true,
+        "same_workload": true,
+        "same_factor": true,
+        "same_noise": true,
+        "same_observed_mask": true,
+        "same_arrival_masks": true,
+        "same_request_counts": true
+      },
+      "passed": true,
+      "max_abs_additive_residual": 3.434752482434078e-16,
+      "additive_equality_required": true
+    },
+    {
+      "pair_id": "fc2a603a6c47a282d4863e43",
+      "family": "additive_persistent",
+      "role": "smoke",
+      "generator_id": "statistical-additive-latency-v1",
+      "checks": {
+        "exact_additive_identity_to_float_precision": true,
+        "same_workload": true,
+        "same_factor": true,
+        "same_noise": true,
+        "same_observed_mask": true,
+        "same_arrival_masks": true,
+        "same_request_counts": true
+      },
+      "passed": true,
+      "max_abs_additive_residual": 3.434752482434078e-16,
+      "additive_equality_required": true
+    },
+    {
+      "pair_id": "1039c7437d229b8fd6d5d570",
+      "family": "additive_recovery",
+      "role": "smoke",
+      "generator_id": "statistical-additive-latency-v1",
+      "checks": {
+        "exact_additive_identity_to_float_precision": true,
+        "same_workload": true,
+        "same_factor": true,
+        "same_noise": true,
+        "same_observed_mask": true,
+        "same_arrival_masks": true,
+        "same_request_counts": true
+      },
+      "passed": true,
+      "max_abs_additive_residual": 4.40619762898109e-16,
+      "additive_equality_required": true
+    }
+  ],
+  "passed": true,
+  "note": "Functional pairing checks only; no detector/calibration/final-test performance is evaluated"
+}

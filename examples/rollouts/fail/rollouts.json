@@ -1,0 +1,267 @@
+{
+  "protocol_version": "fixed-cohort-rack-class-v1",
+  "rollouts": [
+    {
+      "release_id": "release-002",
+      "service_id": "demo-service",
+      "candidate": {
+        "release_id": "release-002",
+        "service_id": "demo-service",
+        "version": "1.1.0",
+        "content_hash": "ac57eba1b61f310a61e7efcc016fdb6633c38a7de5e52a3d8acb4e7b74331af7"
+      },
+      "baseline_versions": {
+        "replica-01-01": "release-healthy-v1",
+        "replica-01-02": "release-healthy-v1",
+        "replica-01-03": "release-healthy-v1",
+        "replica-01-04": "release-healthy-v1",
+        "replica-01-05": "release-healthy-v1",
+        "replica-02-01": "release-healthy-v1",
+        "replica-02-02": "release-healthy-v1",
+        "replica-02-03": "release-healthy-v1",
+        "replica-02-04": "release-healthy-v1",
+        "replica-02-05": "release-healthy-v1",
+        "replica-03-01": "release-healthy-v1",
+        "replica-03-02": "release-healthy-v1",
+        "replica-03-03": "release-healthy-v1",
+        "replica-03-04": "release-healthy-v1",
+        "replica-03-05": "release-healthy-v1",
+        "replica-04-01": "release-healthy-v1",
+        "replica-04-02": "release-healthy-v1",
+        "replica-04-03": "release-healthy-v1",
+        "replica-04-04": "release-healthy-v1",
+        "replica-04-05": "release-healthy-v1"
+      },
+      "original_placement": {
+        "replica-01-01": "host-01-01",
+        "replica-01-02": "host-01-02",
+        "replica-01-03": "host-01-03",
+        "replica-01-04": "host-01-04",
+        "replica-01-05": "host-01-05",
+        "replica-02-01": "host-02-01",
+        "replica-02-02": "host-02-02",
+        "replica-02-03": "host-02-03",
+        "replica-02-04": "host-02-04",
+        "replica-02-05": "host-02-05",
+        "replica-03-01": "host-03-01",
+        "replica-03-02": "host-03-02",
+        "replica-03-03": "host-03-03",
+        "replica-03-04": "host-03-04",
+        "replica-03-05": "host-03-05",
+        "replica-04-01": "host-04-01",
+        "replica-04-02": "host-04-02",
+        "replica-04-03": "host-04-03",
+        "replica-04-04": "host-04-04",
+        "replica-04-05": "host-04-05"
+      },
+      "baseline_releases": [
+        {
+          "release_id": "release-healthy-v1",
+          "service_id": "demo-service",
+          "version": "0.0.0-baseline-0",
+          "content_hash": "594bc0d6e7fd97f649a99068b506dee47649f16f0bfacd466babec30d294ad32"
+        }
+      ],
+      "canaries": [
+        "host-01-01",
+        "host-02-02",
+        "host-03-01",
+        "host-04-01"
+      ],
+      "controls": [
+        "host-01-02",
+        "host-01-03",
+        "host-01-04",
+        "host-01-05",
+        "host-02-01",
+        "host-02-03",
+        "host-02-04",
+        "host-02-05",
+        "host-03-02",
+        "host-03-03",
+        "host-03-04",
+        "host-03-05",
+        "host-04-02",
+        "host-04-03",
+        "host-04-04",
+        "host-04-05"
+      ],
+      "groups": {
+        "rack:rack-01": {
+          "canaries": [
+            "host-01-01"
+          ],
+          "controls": [
+            "host-01-02",
+            "host-01-03",
+            "host-01-04",
+            "host-01-05"
+          ]
+        },
+        "rack:rack-02": {
+          "canaries": [
+            "host-02-02"
+          ],
+          "controls": [
+            "host-02-01",
+            "host-02-03",
+            "host-02-04",
+            "host-02-05"
+          ]
+        },
+        "rack:rack-03": {
+          "canaries": [
+            "host-03-01"
+          ],
+          "controls": [
+            "host-03-02",
+            "host-03-03",
+            "host-03-04",
+            "host-03-05"
+          ]
+        },
+        "rack:rack-04": {
+          "canaries": [
+            "host-04-01"
+          ],
+          "controls": [
+            "host-04-02",
+            "host-04-03",
+            "host-04-04",
+            "host-04-05"
+          ]
+        },
+        "class:0": {
+          "canaries": [
+            "host-01-01",
+            "host-03-01",
+            "host-04-01"
+          ],
+          "controls": [
+            "host-01-03",
+            "host-01-05",
+            "host-02-01",
+            "host-02-03",
+            "host-02-05",
+            "host-03-03",
+            "host-03-05",
+            "host-04-03",
+            "host-04-05"
+          ]
+        },
+        "class:1": {
+          "canaries": [
+            "host-02-02"
+          ],
+          "controls": [
+            "host-01-02",
+            "host-01-04",
+            "host-02-04",
+            "host-03-02",
+            "host-03-04",
+            "host-04-02",
+            "host-04-04"
+          ]
+        }
+      },
+      "canary_fraction": 0.2,
+      "policy_id": "fixed-cohort-rack-class-v1",
+      "min_controls_per_group": 3,
+      "minimum_canary_coverage": 0.8,
+      "baseline_ticks": 2,
+      "horizon_ticks": 10,
+      "baseline_start_tick": 1,
+      "exposure_tick": 3,
+      "first_decision_time": 120,
+      "evaluation_end_tick": 9,
+      "evaluation_active": false,
+      "monitoring_epoch": 1,
+      "calibration_status": "UNCALIBRATED",
+      "alerts_enabled": false,
+      "pending_action": null,
+      "cohort_sha256": "0d6418816f1e73dc93cb3f51d68bcad3c49b95519c111fc09b6303c46e5174e6",
+      "rollout_id": "rollout-576942d28faddaf640a02814",
+      "state": "ROLLED_BACK",
+      "last_transition_tick": 10
+    }
+  ],
+  "transitions": [
+    {
+      "sequence": 0,
+      "rollout_id": "rollout-576942d28faddaf640a02814",
+      "monitoring_epoch": 1,
+      "tick": 0,
+      "from_state": null,
+      "to_state": "CREATED",
+      "reason": "manual_create",
+      "previous_hash": null,
+      "entry_hash": "8ba76568292abfdc6a01c78f78be1a10ddb434110f8e829100016530acdc6e0d"
+    },
+    {
+      "sequence": 1,
+      "rollout_id": "rollout-576942d28faddaf640a02814",
+      "monitoring_epoch": 1,
+      "tick": 1,
+      "from_state": "CREATED",
+      "to_state": "BASELINING",
+      "reason": "manual_baseline",
+      "previous_hash": "8ba76568292abfdc6a01c78f78be1a10ddb434110f8e829100016530acdc6e0d",
+      "entry_hash": "67926a7b5629713c00475c4f015e392de4ee5c3a57cca7296e79a40d50b186e2"
+    },
+    {
+      "sequence": 2,
+      "rollout_id": "rollout-576942d28faddaf640a02814",
+      "monitoring_epoch": 1,
+      "tick": 3,
+      "from_state": "BASELINING",
+      "to_state": "CANARY",
+      "reason": "manual_exposure",
+      "previous_hash": "67926a7b5629713c00475c4f015e392de4ee5c3a57cca7296e79a40d50b186e2",
+      "entry_hash": "1a7906a19fa75a41af0698e7994b8e0e0e8c0c06a81d97cd4bd7319fc39ce68b"
+    },
+    {
+      "sequence": 3,
+      "rollout_id": "rollout-576942d28faddaf640a02814",
+      "monitoring_epoch": 1,
+      "tick": 5,
+      "from_state": "CANARY",
+      "to_state": "PAUSED",
+      "reason": "manual_pause_fixed_traffic",
+      "previous_hash": "1a7906a19fa75a41af0698e7994b8e0e0e8c0c06a81d97cd4bd7319fc39ce68b",
+      "entry_hash": "f00fcd0cca3e033ea1e055de3f201b96bb04de7c406b43fe14344d326dbde386"
+    },
+    {
+      "sequence": 4,
+      "rollout_id": "rollout-576942d28faddaf640a02814",
+      "monitoring_epoch": 1,
+      "tick": 7,
+      "from_state": "PAUSED",
+      "to_state": "CANARY",
+      "reason": "manual_resume_same_epoch",
+      "previous_hash": "f00fcd0cca3e033ea1e055de3f201b96bb04de7c406b43fe14344d326dbde386",
+      "entry_hash": "27d345abf518755a4c6b79d45a2248553fbc1fca5383e6b669a4c1fda390f9c4"
+    },
+    {
+      "sequence": 5,
+      "rollout_id": "rollout-576942d28faddaf640a02814",
+      "monitoring_epoch": 1,
+      "tick": 9,
+      "from_state": "CANARY",
+      "to_state": "FAILED",
+      "reason": "manual_fail",
+      "previous_hash": "27d345abf518755a4c6b79d45a2248553fbc1fca5383e6b669a4c1fda390f9c4",
+      "entry_hash": "e29b8f2d8c176fffafb05ee771e316b3e73e315b7ed195dc04fee2450cf59389"
+    },
+    {
+      "sequence": 6,
+      "rollout_id": "rollout-576942d28faddaf640a02814",
+      "monitoring_epoch": 1,
+      "tick": 10,
+      "from_state": "FAILED",
+      "to_state": "ROLLED_BACK",
+      "reason": "manual_rollback_restart_all_service_replicas",
+      "previous_hash": "e29b8f2d8c176fffafb05ee771e316b3e73e315b7ed195dc04fee2450cf59389",
+      "entry_hash": "34275a2e0bb0b7f88b3e532e07345962d6f55a87ea91c2a232ae5e7ae048d0f4"
+    }
+  ]
+}

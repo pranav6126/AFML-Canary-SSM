@@ -1,0 +1,6 @@
+scenario,processed,final_retained_mb,minimum_headroom_mb,maximum_sampled_mean_ms,oom_exits,restarts,acceptance_pass
+cache_plateau,339,40.0,213.0,1000.0,0,1,True
+retention_no_latency_harm,333,666.0,99331.0,1000.0,0,1,True
+pressure_latency_harm,414,110.0,3.0,29000.0,0,1,True
+oom,33,0.0,29.0,1000.0,1,1,True
+recovery,175,0.0,9.0,1000.0,1,2,True

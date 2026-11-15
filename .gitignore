@@ -1,0 +1,47 @@
+# Python environments & caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+.eggs/
+build/
+dist/
+.coverage
+htmlcov/
+
+# Heavy generated raw rollout data, caches, smoke runs & resume checkpoints
+data/
+data_*/
+cache/
+artifacts_*/
+results_*/
+results/smoke_ora_check/
+.resume_*/
+**/.resume_*/
+logs/
+runtime/
+*.npz
+*.pkl
+*.log
+
+# Keep the small reproducible legacy audit fixture; bulk rollouts stay ignored.
+!data_audit/
+data_audit/*
+!data_audit/model_pooled_dev/
+data_audit/model_pooled_dev/*
+!data_audit/model_pooled_dev/*.json
+!data_audit/model_pooled_dev/*.yaml
+!data_audit/model_pooled_dev/*.csv
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+
+# Small, versioned smoke pairing fixtures; larger role datasets stay ignored.
+!examples/scenario_bundles/smoke/statistical-additive-latency-v1/**/public/rollout.npz
+!examples/scenario_bundles/smoke/statistical-additive-latency-v1/**/evaluator/truth.npz

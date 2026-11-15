@@ -1,0 +1,18 @@
+{
+  "format": "compact-null-input-delivery-v1",
+  "freeze_hash": "d3d98788033eb70ca8798f02f8be0a65b5cc7a7daadae32fa8fde9c4b37124d1",
+  "null_rollouts": {
+    "research/latent_effect/threshold-calibration": 2000,
+    "research/latent_effect/null-validation": 2000,
+    "world/release_latency/threshold-calibration": 2000,
+    "world/release_latency/null-validation": 2000,
+    "world/infrastructure/threshold-calibration": 2000,
+    "world/infrastructure/null-validation": 2000
+  },
+  "folders": 12000,
+  "large_buffers_omitted": 24000,
+  "raw_tables_and_all_scores_retained": true,
+  "full_scenario_public_and_truth_retained": true,
+  "archive_adapter_sha256": "f916064a12c6f2ff79b2fc33adbd68cb28ade7bba38993f4e4e277773635f124",
+  "restore": "python -m canary_ssm.evaluation_archive replay-null --study examples/evaluator_v2 --generator world --endpoint release_latency --role null-validation --index 0 --materialize"
+}

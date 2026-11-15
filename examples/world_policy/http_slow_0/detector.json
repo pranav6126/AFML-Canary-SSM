@@ -1,0 +1,349 @@
+{
+  "format": "detector-monitor-v1",
+  "artifact_id": "physical-policy-221f2b817cbc42a5",
+  "version": "physical-public-producer-v1",
+  "replay_id": "physical-policy-http-slow_0",
+  "run_id": "physical-policy-http-slow_0",
+  "source_kind": "external-detector-stream",
+  "host_roster": [
+    {
+      "host_id": "host-01-01",
+      "rack_id": "rack-01"
+    },
+    {
+      "host_id": "host-02-02",
+      "rack_id": "rack-02"
+    },
+    {
+      "host_id": "host-03-01",
+      "rack_id": "rack-03"
+    },
+    {
+      "host_id": "host-04-01",
+      "rack_id": "rack-04"
+    }
+  ],
+  "methods": [
+    {
+      "method_id": "independent",
+      "version": "221f2b817cbc42a58090edf58adfd25fde96acfd7767a17cb53ca609c645c5ed",
+      "kind": "independent",
+      "settings": {
+        "prior_sd": 0.03
+      }
+    }
+  ],
+  "exposure_time": 3660,
+  "simulated": true,
+  "frames": [
+    {
+      "event_time": 3660.0,
+      "decision_time": 3660.0,
+      "input_sha256": "e8862e87ab3b927224b6e023b685de5096a3f36ebcd5b5917b1aba71586b614a",
+      "observed": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "eligible": false,
+      "latency_ms": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "residual": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "quality_flags": [
+        "insufficient_canary_coverage",
+        "no_current_workload_support_overlap:rack-01",
+        "no_current_workload_support_overlap:rack-02",
+        "no_current_workload_support_overlap:rack-03",
+        "no_current_workload_support_overlap:rack-04"
+      ],
+      "methods": {
+        "independent": {
+          "mean": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "covariance": [
+            [
+              0.0009,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0009,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0009,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0009
+            ]
+          ],
+          "group": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "deviation": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      }
+    },
+    {
+      "event_time": 3720.0,
+      "decision_time": 3720.0,
+      "input_sha256": "e8862e87ab3b927224b6e023b685de5096a3f36ebcd5b5917b1aba71586b614a",
+      "observed": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "eligible": false,
+      "latency_ms": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "residual": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "quality_flags": [
+        "insufficient_canary_coverage",
+        "no_current_workload_support_overlap:rack-01",
+        "no_current_workload_support_overlap:rack-02",
+        "no_current_workload_support_overlap:rack-03",
+        "no_current_workload_support_overlap:rack-04"
+      ],
+      "methods": {
+        "independent": {
+          "mean": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "covariance": [
+            [
+              0.0008372499999999999,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0008372499999999999,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0008372499999999999,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0008372499999999999
+            ]
+          ],
+          "group": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "deviation": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      }
+    },
+    {
+      "event_time": 3780.0,
+      "decision_time": 3780.0,
+      "input_sha256": "0a696ec3ae69298142e5fac4ac6d820d10bd24183c6e00ade7ae29856bf097d3",
+      "observed": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "eligible": true,
+      "latency_ms": [
+        180000.0,
+        180000.0,
+        180000.0,
+        180000.0
+      ],
+      "residual": [
+        1.099817633693857,
+        1.0991418135209337,
+        1.0942512168687186,
+        1.1027107552048472
+      ],
+      "quality_flags": [
+        "no_current_workload_support_overlap:rack-04"
+      ],
+      "methods": {
+        "independent": {
+          "mean": [
+            0.5978225010094146,
+            0.5841833036418387,
+            0.6771554479701571,
+            0.611791581611665
+          ],
+          "covariance": [
+            [
+              0.00031779402317466546,
+              1.2352974387697853e-05,
+              1.1481479550862528e-05,
+              1.4622510712528549e-05
+            ],
+            [
+              1.2352974387697853e-05,
+              0.000330525875396496,
+              1.0045277201820755e-05,
+              1.2791526796538724e-05
+            ],
+            [
+              1.1481479550862528e-05,
+              1.0045277201820755e-05,
+              0.00026394998873594964,
+              1.188954753884513e-05
+            ],
+            [
+              1.4622510712528549e-05,
+              1.2791526796538724e-05,
+              1.188954753884513e-05,
+              0.0003083878354902346
+            ]
+          ],
+          "group": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "deviation": [
+            0.5978225010094146,
+            0.5841833036418387,
+            0.6771554479701571,
+            0.611791581611665
+          ]
+        }
+      }
+    },
+    {
+      "event_time": 3840.0,
+      "decision_time": 3840.0,
+      "input_sha256": "a6031922865b62224e74622747d470ffe3a51956b5617325b326091461e44246",
+      "observed": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "eligible": true,
+      "latency_ms": [
+        180000.0,
+        180000.0,
+        180000.0,
+        180000.0
+      ],
+      "residual": [
+        1.1053616555869823,
+        1.1032056523767637,
+        1.0949093531317557,
+        1.1043448409256316
+      ],
+      "quality_flags": [
+        "no_current_workload_support_overlap:rack-04"
+      ],
+      "methods": {
+        "independent": {
+          "mean": [
+            0.700172300592938,
+            0.704822862149382,
+            0.7838501521204997,
+            0.7256431830994408
+          ],
+          "covariance": [
+            [
+              0.00023705443688915183,
+              8.312533765268437e-06,
+              7.485659396883116e-06,
+              9.63563763701136e-06
+            ],
+            [
+              8.312533765268437e-06,
+              0.00023494130276474355,
+              6.783085811849594e-06,
+              8.730394679585488e-06
+            ],
+            [
+              7.485659396883116e-06,
+              6.783085811849594e-06,
+              0.00018057760183489983,
+              7.862289915092476e-06
+            ],
+            [
+              9.63563763701136e-06,
+              8.730394679585488e-06,
+              7.862289915092476e-06,
+              0.00021974843467100283
+            ]
+          ],
+          "group": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "deviation": [
+            0.700172300592938,
+            0.704822862149382,
+            0.7838501521204997,
+            0.7256431830994408
+          ]
+        }
+      }
+    }
+  ],
+  "artifact_sha256": "0e65aa8bf3dde4269009db78d15c987c5eeee43873df25e7c581e2817228f42d"
+}

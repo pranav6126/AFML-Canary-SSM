@@ -1,0 +1,1177 @@
+[
+  {
+    "seq": 0,
+    "tick": 0,
+    "kind": "command",
+    "command": "step",
+    "ticks": 5
+  },
+  {
+    "seq": 1,
+    "tick": 1,
+    "kind": "published",
+    "phases": [
+      "apply_events",
+      "route_workload",
+      "update_resources",
+      "emit_observations",
+      "publish_snapshot"
+    ],
+    "snapshot_hash": "d06018a049fb76c71dc47cd995a3a97ac620a9155f60becdf2085e6c0b7a9593"
+  },
+  {
+    "seq": 2,
+    "tick": 2,
+    "kind": "published",
+    "phases": [
+      "apply_events",
+      "route_workload",
+      "update_resources",
+      "emit_observations",
+      "publish_snapshot"
+    ],
+    "snapshot_hash": "3c299498eced82027e396a270c9ecb3ceb11db63fb389ea29cc1fb4acdd9cc90"
+  },
+  {
+    "seq": 3,
+    "tick": 3,
+    "kind": "published",
+    "phases": [
+      "apply_events",
+      "route_workload",
+      "update_resources",
+      "emit_observations",
+      "publish_snapshot"
+    ],
+    "snapshot_hash": "66f9a504e811b31f06b0e80e0805769dcc3838e7561a107e08623133db29e6ad"
+  },
+  {
+    "seq": 4,
+    "tick": 4,
+    "kind": "published",
+    "phases": [
+      "apply_events",
+      "route_workload",
+      "update_resources",
+      "emit_observations",
+      "publish_snapshot"
+    ],
+    "snapshot_hash": "0bde825a9b1947738ac70435ddefe456698b5e8faeee10b07c22e85abf6d8055"
+  },
+  {
+    "seq": 5,
+    "tick": 5,
+    "kind": "published",
+    "phases": [
+      "apply_events",
+      "route_workload",
+      "update_resources",
+      "emit_observations",
+      "publish_snapshot"
+    ],
+    "snapshot_hash": "8a58c58d1b3a8d5cd831be2f00ea026fee83eb8f53440ea738ca06f30097c860"
+  },
+  {
+    "seq": 6,
+    "tick": 5,
+    "kind": "command",
+    "command": "demo",
+    "action": "register_release",
+    "args": {
+      "release": {
+        "schema_version": 1,
+        "release_id": "candidate",
+        "service_id": "service",
+        "version": "3.0.0",
+        "creation_metadata": {
+          "author": "development-fixture"
+        },
+        "behavior_manifest": {
+          "schema_version": 1,
+          "profiles": [
+            {
+              "kind": "process_memory",
+              "retained_mb_per_request": 4.0,
+              "background_mb_per_second": 0.0,
+              "retained_limit_mb": null
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "seq": 7,
+    "tick": 5,
+    "kind": "command",
+    "command": "demo",
+    "action": "preview",
+    "args": {
+      "release_id": "candidate"
+    }
+  },
+  {
+    "seq": 8,
+    "tick": 5,
+    "kind": "command",
+    "command": "demo",
+    "action": "deploy",
+    "args": {
+      "plan_id": "689f9032afd5f7b514d5e629ab1de60c77c3c3cff3e8b3bfadda6ab7746164c5"
+    }
+  },
+  {
+    "seq": 9,
+    "tick": 5,
+    "kind": "command",
+    "command": "step",
+    "ticks": 60
+  },
+  {
+    "seq": 10,
+    "tick": 6,
+    "kind": "published",
+    "phases": [
+      "apply_events",
+      "route_workload",
+      "update_resources",
+      "emit_observations",
+      "publish_snapshot"
+    ],
+    "snapshot_hash": "68a68a7367234a4fbef096223ba2dcfc0a597908a04c5b381894fa27fcc16928"
+  },
+  {
+    "seq": 11,
+    "tick": 7,
+    "kind": "published",
+    "phases": [
+      "apply_events",
+      "route_workload",
+      "update_resources",
+      "emit_observations",
+      "publish_snapshot"
+    ],
+    "snapshot_hash": "4f088f862428f99b7c036e4d0c16d75627f4541a3cb85e8131edf640c48fc705"
+  },
+  {
+    "seq": 12,
+    "tick": 8,
+    "kind": "published",
+    "phases": [
+      "apply_events",
+      "route_workload",
+      "update_resources",
+      "emit_observations",
+      "publish_snapshot"
+    ],
+    "snapshot_hash": "5fdcfbd414cffb28961ab7b2b236d8b796543f1b30cb405d771a685200a8bfd7"
+  },
+  {
+    "seq": 13,
+    "tick": 9,
+    "kind": "published",
+    "phases": [
+      "apply_events",
+      "route_workload",
+      "update_resources",
+      "emit_observations",
+      "publish_snapshot"
+    ],
+    "snapshot_hash": "88027d5ba0caae37064c9a35eaaa2d2236214b66c6c7243f2c30f84937c54989"
+  },
+  {
+    "seq": 14,
+    "tick": 10,
+    "kind": "published",
+    "phases": [
+      "apply_events",
+      "route_workload",
+      "update_resources",
+      "emit_observations",
+      "publish_snapshot"
+    ],
+    "snapshot_hash": "6146cd9b1cf70fc46f9ed29887288b4336c855cc775a88e359323187473c7185"
+  },
+  {
+    "seq": 15,
+    "tick": 11,
+    "kind": "published",
+    "phases": [
+      "apply_events",
+      "route_workload",
+      "update_resources",
+      "emit_observations",
+      "publish_snapshot"
+    ],
+    "snapshot_hash": "7df13af87383861a958ce7db00bbcf18a47abae645fea766f2cb85734762a800"
+  },
+  {
+    "seq": 16,
+    "tick": 12,
+    "kind": "published",
+    "phases": [
+      "apply_events",
+      "route_workload",
+      "update_resources",
+      "emit_observations",
+      "publish_snapshot"
+    ],
+    "snapshot_hash": "a2f6d758769254411e09e1981b15e2b9d5a3433fd21667362070d49d1757bcc7"
+  },
+  {
+    "seq": 17,
+    "tick": 13,
+    "kind": "published",
+    "phases": [
+      "apply_events",
+      "route_workload",
+      "update_resources",
+      "emit_observations",
+      "publish_snapshot"
+    ],
+    "snapshot_hash": "525d1f10e3ed3c83024e49445f2fad995b6f5d7ad131cc4bfeddc84cc0ca2fce"
+  },
+  {
+    "seq": 18,
+    "tick": 14,
+    "kind": "published",
+    "phases": [
+      "apply_events",
+      "route_workload",
+      "update_resources",
+      "emit_observations",
+      "publish_snapshot"
+    ],
+    "snapshot_hash": "b56fb5df9449c6748e15034fd34a56f0b51b2e276dd1c48a205f9dda35f1044a"
+  },
+  {
+    "seq": 19,
+    "tick": 15,
+    "kind": "published",
+    "phases": [
+      "apply_events",
+      "route_workload",
+      "update_resources",
+      "emit_observations",
+      "publish_snapshot"
+    ],
+    "snapshot_hash": "44ec8069ffbe8d3e1676c127602373adffb8930ce9628a2aa3c558dab6078a31"
+  },
+  {
+    "seq": 20,
+    "tick": 16,
+    "kind": "published",
+    "phases": [
+      "apply_events",
+      "route_workload",
+      "update_resources",
+      "emit_observations",
+      "publish_snapshot"
+    ],
+    "snapshot_hash": "1b05d9fd1b1854cbe56a74391f1d0366256199c78ca9fe3e97d72b43486008f0"
+  },
+  {
+    "seq": 21,
+    "tick": 17,
+    "kind": "published",
+    "phases": [
+      "apply_events",
+      "route_workload",
+      "update_resources",
+      "emit_observations",
+      "publish_snapshot"
+    ],
+    "snapshot_hash": "911709d8091729d80ed6e887659a7c4ed759b007547c8df9d0a78fb05b3fdb90"
+  },
+  {
+    "seq": 22,
+    "tick": 18,
+    "kind": "published",
+    "phases": [
+      "apply_events",
+      "route_workload",
+      "update_resources",
+      "emit_observations",
+      "publish_snapshot"
+    ],
+    "snapshot_hash": "39a6f87c549bd05a972dc37e82c8687960c2c1376670d927d98e573ad0336190"
+  },
+  {
+    "seq": 23,
+    "tick": 19,
+    "kind": "published",
+    "phases": [
+      "apply_events",
+      "route_workload",
+      "update_resources",
+      "emit_observations",
+      "publish_snapshot"
+    ],
+    "snapshot_hash": "ee6a475ce132591a4924caa8a737e97b14985f203a978789b0efee545831c4c2"
+  },
+  {
+    "seq": 24,
+    "tick": 20,
+    "kind": "published",
+    "phases": [
+      "apply_events",
+      "route_workload",
+      "update_resources",
+      "emit_observations",
+      "publish_snapshot"
+    ],
+    "snapshot_hash": "43c6c61cf827c140017cd9fbf66cbd65c113a3c0f79ff9a6ad03e952fe96f1df"
+  },
+  {
+    "seq": 25,
+    "tick": 21,
+    "kind": "published",
+    "phases": [
+      "apply_events",
+      "route_workload",
+      "update_resources",
+      "emit_observations",
+      "publish_snapshot"
+    ],
+    "snapshot_hash": "82f414534970278adc8f2f54f9725b310d722d061f0d06b74ae7a762f542a40a"
+  },
+  {
+    "seq": 26,
+    "tick": 22,
+    "kind": "published",
+    "phases": [
+      "apply_events",
+      "route_workload",
+      "update_resources",
+      "emit_observations",
+      "publish_snapshot"
+    ],
+    "snapshot_hash": "83367efd47403c019a5b2bf02d57d96b9d26a21964ceba72e33e8caca04fcbcd"
+  },
+  {
+    "seq": 27,
+    "tick": 23,
+    "kind": "published",
+    "phases": [
+      "apply_events",
+      "route_workload",
+      "update_resources",
+      "emit_observations",
+      "publish_snapshot"
+    ],
+    "snapshot_hash": "756f030c03c2ee13d1fca98c0019c16240a3c78df97d1ba0a5ec0875cd17d12b"
+  },
+  {
+    "seq": 28,
+    "tick": 24,
+    "kind": "published",
+    "phases": [
+      "apply_events",
+      "route_workload",
+      "update_resources",
+      "emit_observations",
+      "publish_snapshot"
+    ],
+    "snapshot_hash": "073a7662ce11a80a4ffa1b79ce54019d66c67c21b39cd7dfb8feb64ffb7696a3"
+  },
+  {
+    "seq": 29,
+    "tick": 25,
+    "kind": "published",
+    "phases": [
+      "apply_events",
+      "route_workload",
+      "update_resources",
+      "emit_observations",
+      "publish_snapshot"
+    ],
+    "snapshot_hash": "7f0abd48b8460d9e05bde01dea4da6800e8e20c5961c837dd59cb2986c970cd8"
+  },
+  {
+    "seq": 30,
+    "tick": 26,
+    "kind": "published",
+    "phases": [
+      "apply_events",
+      "route_workload",
+      "update_resources",
+      "emit_observations",
+      "publish_snapshot"
+    ],
+    "snapshot_hash": "57ab9fefd720f99feabed884bee6b6504e6618bf35524ace242a8ff572164066"
+  },
+  {
+    "seq": 31,
+    "tick": 27,
+    "kind": "published",
+    "phases": [
+      "apply_events",
+      "route_workload",
+      "update_resources",
+      "emit_observations",
+      "publish_snapshot"
+    ],
+    "snapshot_hash": "cb859bd93bf74dd3dfff6250fe1a11a23bcaf0d8d5ed7bfd4135895d60dab2da"
+  },
+  {
+    "seq": 32,
+    "tick": 28,
+    "kind": "published",
+    "phases": [
+      "apply_events",
+      "route_workload",
+      "update_resources",
+      "emit_observations",
+      "publish_snapshot"
+    ],
+    "snapshot_hash": "432b02c39c271ef93149706b3188d37992355d46cbe1d7fb3934eb8109815b61"
+  },
+  {
+    "seq": 33,
+    "tick": 29,
+    "kind": "published",
+    "phases": [
+      "apply_events",
+      "route_workload",
+      "update_resources",
+      "emit_observations",
+      "publish_snapshot"
+    ],
+    "snapshot_hash": "9cfe7f2924d25a857c15aff1f5503aa3726ce9883fa51094b76a11095edb021a"
+  },
+  {
+    "seq": 34,
+    "tick": 30,
+    "kind": "published",
+    "phases": [
+      "apply_events",
+      "route_workload",
+      "update_resources",
+      "emit_observations",
+      "publish_snapshot"
+    ],
+    "snapshot_hash": "87ee130024bd3112cf90a0828162cb4c5db80aa861688d1451dcb9eaefd76ccf"
+  },
+  {
+    "seq": 35,
+    "tick": 31,
+    "kind": "published",
+    "phases": [
+      "apply_events",
+      "route_workload",
+      "update_resources",
+      "emit_observations",
+      "publish_snapshot"
+    ],
+    "snapshot_hash": "32ea2ffbab66fbdbdde362ae848d552908d61f2188ffccf0f8532309fbdd2d23"
+  },
+  {
+    "seq": 36,
+    "tick": 32,
+    "kind": "published",
+    "phases": [
+      "apply_events",
+      "route_workload",
+      "update_resources",
+      "emit_observations",
+      "publish_snapshot"
+    ],
+    "snapshot_hash": "3aaaa49eceef2c5c579fc597a78cd77c248d1c1172c7898616d360c15a5624cc"
+  },
+  {
+    "seq": 37,
+    "tick": 33,
+    "kind": "published",
+    "phases": [
+      "apply_events",
+      "route_workload",
+      "update_resources",
+      "emit_observations",
+      "publish_snapshot"
+    ],
+    "snapshot_hash": "a039d0a444da967c3bb749ad84e834e0d1a2e2e8e8d921e633965d24af031bff"
+  },
+  {
+    "seq": 38,
+    "tick": 34,
+    "kind": "published",
+    "phases": [
+      "apply_events",
+      "route_workload",
+      "update_resources",
+      "emit_observations",
+      "publish_snapshot"
+    ],
+    "snapshot_hash": "67256f6967d57b89f102cd5695606f4f018d71d0901adb0ee0bf9f5055afd5d6"
+  },
+  {
+    "seq": 39,
+    "tick": 35,
+    "kind": "published",
+    "phases": [
+      "apply_events",
+      "route_workload",
+      "update_resources",
+      "emit_observations",
+      "publish_snapshot"
+    ],
+    "snapshot_hash": "d9a48b2cc8647674ceaf5059cd609445ac1c10cb633773d59110287670f41512"
+  },
+  {
+    "seq": 40,
+    "tick": 36,
+    "kind": "published",
+    "phases": [
+      "apply_events",
+      "route_workload",
+      "update_resources",
+      "emit_observations",
+      "publish_snapshot"
+    ],
+    "snapshot_hash": "8e2c04074356489bf8d41026c999b26ea11f6f97d196aab3e679f087c74f6037"
+  },
+  {
+    "seq": 41,
+    "tick": 37,
+    "kind": "published",
+    "phases": [
+      "apply_events",
+      "route_workload",
+      "update_resources",
+      "emit_observations",
+      "publish_snapshot"
+    ],
+    "snapshot_hash": "ae0821b5280beb30c03e3af1aaf7956be062c9bb12f791d2320a2426ab3741e7"
+  },
+  {
+    "seq": 42,
+    "tick": 38,
+    "kind": "published",
+    "phases": [
+      "apply_events",
+      "route_workload",
+      "update_resources",
+      "emit_observations",
+      "publish_snapshot"
+    ],
+    "snapshot_hash": "a742d2bacd6fec40662155ed1caa917aca40c8ec6ac73eba753d31719b0731ca"
+  },
+  {
+    "seq": 43,
+    "tick": 39,
+    "kind": "published",
+    "phases": [
+      "apply_events",
+      "route_workload",
+      "update_resources",
+      "emit_observations",
+      "publish_snapshot"
+    ],
+    "snapshot_hash": "8badbc3a56cae2b1d524b848bf08fbf3963c682b9f9b3e850af9a3d0646a0ee5"
+  },
+  {
+    "seq": 44,
+    "tick": 40,
+    "kind": "published",
+    "phases": [
+      "apply_events",
+      "route_workload",
+      "update_resources",
+      "emit_observations",
+      "publish_snapshot"
+    ],
+    "snapshot_hash": "3a1946f8e775e27c426bdae2e03632a248aab4fcd355429a74e0c22192510eec"
+  },
+  {
+    "seq": 45,
+    "tick": 41,
+    "kind": "published",
+    "phases": [
+      "apply_events",
+      "route_workload",
+      "update_resources",
+      "emit_observations",
+      "publish_snapshot"
+    ],
+    "snapshot_hash": "e0f9c5270ca190df5b1ace8c98a09a85acb29ece943ae8144e03e674e71e7f2d"
+  },
+  {
+    "seq": 46,
+    "tick": 42,
+    "kind": "published",
+    "phases": [
+      "apply_events",
+      "route_workload",
+      "update_resources",
+      "emit_observations",
+      "publish_snapshot"
+    ],
+    "snapshot_hash": "61b9faa2cd772bd3cae35d2b230ff4f1aab318534bf1f3b217979c4be43968f0"
+  },
+  {
+    "seq": 47,
+    "tick": 43,
+    "kind": "published",
+    "phases": [
+      "apply_events",
+      "route_workload",
+      "update_resources",
+      "emit_observations",
+      "publish_snapshot"
+    ],
+    "snapshot_hash": "6e2a7e5797c2e3812e90bc5c86474af180bfff7236ec05aa5611295d10df6cba"
+  },
+  {
+    "seq": 48,
+    "tick": 44,
+    "kind": "published",
+    "phases": [
+      "apply_events",
+      "route_workload",
+      "update_resources",
+      "emit_observations",
+      "publish_snapshot"
+    ],
+    "snapshot_hash": "a59a1711d461194cadeab5e35407e4daf3d1d9a5348082f903049ca4a76e217a"
+  },
+  {
+    "seq": 49,
+    "tick": 45,
+    "kind": "published",
+    "phases": [
+      "apply_events",
+      "route_workload",
+      "update_resources",
+      "emit_observations",
+      "publish_snapshot"
+    ],
+    "snapshot_hash": "c94f37e444a381e6f5b1cb39c5ab5a9d23c6c692cc95283ddfd77969277bc984"
+  },
+  {
+    "seq": 50,
+    "tick": 46,
+    "kind": "published",
+    "phases": [
+      "apply_events",
+      "route_workload",
+      "update_resources",
+      "emit_observations",
+      "publish_snapshot"
+    ],
+    "snapshot_hash": "f32e4d3da03fb03df08aab08104e99cfc40eaa9aa6e015f5e0399e4a5609abf8"
+  },
+  {
+    "seq": 51,
+    "tick": 47,
+    "kind": "published",
+    "phases": [
+      "apply_events",
+      "route_workload",
+      "update_resources",
+      "emit_observations",
+      "publish_snapshot"
+    ],
+    "snapshot_hash": "abe288c3d3765788347b18df223a99dfe0d41f4a063927cdca4fdaed092f6929"
+  },
+  {
+    "seq": 52,
+    "tick": 48,
+    "kind": "published",
+    "phases": [
+      "apply_events",
+      "route_workload",
+      "update_resources",
+      "emit_observations",
+      "publish_snapshot"
+    ],
+    "snapshot_hash": "5c6daf980e1b6fdd7be55e20d58c568188b31587bf64e3a5c69c265e064df818"
+  },
+  {
+    "seq": 53,
+    "tick": 49,
+    "kind": "published",
+    "phases": [
+      "apply_events",
+      "route_workload",
+      "update_resources",
+      "emit_observations",
+      "publish_snapshot"
+    ],
+    "snapshot_hash": "dcc2950cda61326b02ec170aa20d67a5cb3a415d686da4dadc4987bb2aa4c37e"
+  },
+  {
+    "seq": 54,
+    "tick": 50,
+    "kind": "published",
+    "phases": [
+      "apply_events",
+      "route_workload",
+      "update_resources",
+      "emit_observations",
+      "publish_snapshot"
+    ],
+    "snapshot_hash": "1ccc56dfe1d9744d313bb20d0a98fbe3dbb807ac6daab738c4903ed2cbf8267d"
+  },
+  {
+    "seq": 55,
+    "tick": 51,
+    "kind": "published",
+    "phases": [
+      "apply_events",
+      "route_workload",
+      "update_resources",
+      "emit_observations",
+      "publish_snapshot"
+    ],
+    "snapshot_hash": "96abeef9871407ee849521a0eb165e52cab1c8e659d272dd5c4f13f7e6a73161"
+  },
+  {
+    "seq": 56,
+    "tick": 52,
+    "kind": "published",
+    "phases": [
+      "apply_events",
+      "route_workload",
+      "update_resources",
+      "emit_observations",
+      "publish_snapshot"
+    ],
+    "snapshot_hash": "c34dec8e37eb25d3ef703b6ab8f43283c19461055f5ce8c76d9c9351d691a02f"
+  },
+  {
+    "seq": 57,
+    "tick": 53,
+    "kind": "published",
+    "phases": [
+      "apply_events",
+      "route_workload",
+      "update_resources",
+      "emit_observations",
+      "publish_snapshot"
+    ],
+    "snapshot_hash": "fe4573fd18d5616e793d211fc45ec9fa0f3b5ece089424ce70f4fba877972c47"
+  },
+  {
+    "seq": 58,
+    "tick": 54,
+    "kind": "published",
+    "phases": [
+      "apply_events",
+      "route_workload",
+      "update_resources",
+      "emit_observations",
+      "publish_snapshot"
+    ],
+    "snapshot_hash": "a6236c16590fcd52f4eb6cbf6acf410d0e7218b332d2cdeb8383562626679db7"
+  },
+  {
+    "seq": 59,
+    "tick": 55,
+    "kind": "published",
+    "phases": [
+      "apply_events",
+      "route_workload",
+      "update_resources",
+      "emit_observations",
+      "publish_snapshot"
+    ],
+    "snapshot_hash": "d4802b33ac106561424b66e96668a3db632481ae2e90864c62e764a6fd7e3633"
+  },
+  {
+    "seq": 60,
+    "tick": 56,
+    "kind": "published",
+    "phases": [
+      "apply_events",
+      "route_workload",
+      "update_resources",
+      "emit_observations",
+      "publish_snapshot"
+    ],
+    "snapshot_hash": "45c31878379ef35b98e25d96761aea4a5310608fb5345dd5c2f00ae8910b0998"
+  },
+  {
+    "seq": 61,
+    "tick": 57,
+    "kind": "published",
+    "phases": [
+      "apply_events",
+      "route_workload",
+      "update_resources",
+      "emit_observations",
+      "publish_snapshot"
+    ],
+    "snapshot_hash": "2f2f4a6d8a0ca561a6f71219c30b53ae2b7c8b78f56d9b691a63cea330771a8f"
+  },
+  {
+    "seq": 62,
+    "tick": 58,
+    "kind": "published",
+    "phases": [
+      "apply_events",
+      "route_workload",
+      "update_resources",
+      "emit_observations",
+      "publish_snapshot"
+    ],
+    "snapshot_hash": "9ab0a96ac7ee85eb971df2025caeea2a159a8f114bdddcef71bfbb7ab8fb8b26"
+  },
+  {
+    "seq": 63,
+    "tick": 59,
+    "kind": "published",
+    "phases": [
+      "apply_events",
+      "route_workload",
+      "update_resources",
+      "emit_observations",
+      "publish_snapshot"
+    ],
+    "snapshot_hash": "a4c253f4e99096b979f89b9e1bbf37fdde415bbe74561fc7ce65e9ca42823ab2"
+  },
+  {
+    "seq": 64,
+    "tick": 60,
+    "kind": "published",
+    "phases": [
+      "apply_events",
+      "route_workload",
+      "update_resources",
+      "emit_observations",
+      "publish_snapshot"
+    ],
+    "snapshot_hash": "7d74bcc8995cfdc9c79524220c74d2b75e1062ca4752e5ef163d57917a80df34"
+  },
+  {
+    "seq": 65,
+    "tick": 61,
+    "kind": "published",
+    "phases": [
+      "apply_events",
+      "route_workload",
+      "update_resources",
+      "emit_observations",
+      "publish_snapshot"
+    ],
+    "snapshot_hash": "54857e53c2c56d47751bd19462aee4a94746335da428d91dd3b52329293a7014"
+  },
+  {
+    "seq": 66,
+    "tick": 62,
+    "kind": "published",
+    "phases": [
+      "apply_events",
+      "route_workload",
+      "update_resources",
+      "emit_observations",
+      "publish_snapshot"
+    ],
+    "snapshot_hash": "9c83bbad0286f7553c98ee2b80b52c5eff3b89d331d47598299986c2a11eec13"
+  },
+  {
+    "seq": 67,
+    "tick": 63,
+    "kind": "published",
+    "phases": [
+      "apply_events",
+      "route_workload",
+      "update_resources",
+      "emit_observations",
+      "publish_snapshot"
+    ],
+    "snapshot_hash": "ce4a32fa2cf3f7f7129c7ada8e43085d9ca8f5eca3a2da665552d2c96c9f7d93"
+  },
+  {
+    "seq": 68,
+    "tick": 64,
+    "kind": "published",
+    "phases": [
+      "apply_events",
+      "route_workload",
+      "update_resources",
+      "emit_observations",
+      "publish_snapshot"
+    ],
+    "snapshot_hash": "6069823421f8f81e2a166a1c6ab74b8cc5da3b877644526964c370637b63e8ab"
+  },
+  {
+    "seq": 69,
+    "tick": 65,
+    "kind": "published",
+    "phases": [
+      "apply_events",
+      "route_workload",
+      "update_resources",
+      "emit_observations",
+      "publish_snapshot"
+    ],
+    "snapshot_hash": "f7f7ea934f8e4f4b815c60e27109303f172e01491d68c7491ccefc2d4ce47cba"
+  },
+  {
+    "seq": 70,
+    "tick": 65,
+    "kind": "command",
+    "command": "step",
+    "ticks": 20
+  },
+  {
+    "seq": 71,
+    "tick": 66,
+    "kind": "published",
+    "phases": [
+      "apply_events",
+      "route_workload",
+      "update_resources",
+      "emit_observations",
+      "publish_snapshot"
+    ],
+    "snapshot_hash": "ff21b5932961d9ab64210a3813164129cac3016705d83a71142aea4535028eb7"
+  },
+  {
+    "seq": 72,
+    "tick": 67,
+    "kind": "published",
+    "phases": [
+      "apply_events",
+      "route_workload",
+      "update_resources",
+      "emit_observations",
+      "publish_snapshot"
+    ],
+    "snapshot_hash": "b6bb567dddd5a3aa1280789107412bf0206b1d21d1014dcd0f41b9c449623eb6"
+  },
+  {
+    "seq": 73,
+    "tick": 68,
+    "kind": "published",
+    "phases": [
+      "apply_events",
+      "route_workload",
+      "update_resources",
+      "emit_observations",
+      "publish_snapshot"
+    ],
+    "snapshot_hash": "f0fc9edf5d95bb32415c8b6e9b6183b5264211972a93fc1fd0ad04d8179ae9bd"
+  },
+  {
+    "seq": 74,
+    "tick": 69,
+    "kind": "published",
+    "phases": [
+      "apply_events",
+      "route_workload",
+      "update_resources",
+      "emit_observations",
+      "publish_snapshot"
+    ],
+    "snapshot_hash": "785dbd344f71335c96d51114f10279cc7f498f8d03d1896afb808ad921d52945"
+  },
+  {
+    "seq": 75,
+    "tick": 70,
+    "kind": "published",
+    "phases": [
+      "apply_events",
+      "route_workload",
+      "update_resources",
+      "emit_observations",
+      "publish_snapshot"
+    ],
+    "snapshot_hash": "6ed89a33edd9eadb6e96237141752ebc2edc8b3ff03bbfce0222818627bdee97"
+  },
+  {
+    "seq": 76,
+    "tick": 71,
+    "kind": "published",
+    "phases": [
+      "apply_events",
+      "route_workload",
+      "update_resources",
+      "emit_observations",
+      "publish_snapshot"
+    ],
+    "snapshot_hash": "80077d629b1593aaca38ed44d9c3ce7b1f2536a8845f18a0d17b262c34f5eef4"
+  },
+  {
+    "seq": 77,
+    "tick": 72,
+    "kind": "published",
+    "phases": [
+      "apply_events",
+      "route_workload",
+      "update_resources",
+      "emit_observations",
+      "publish_snapshot"
+    ],
+    "snapshot_hash": "164a3d7609b9431f5cbf1158f46d7da21bb30829e3d2b135a8a577cb57ba6cf7"
+  },
+  {
+    "seq": 78,
+    "tick": 73,
+    "kind": "published",
+    "phases": [
+      "apply_events",
+      "route_workload",
+      "update_resources",
+      "emit_observations",
+      "publish_snapshot"
+    ],
+    "snapshot_hash": "3de60f0d8f00c81795a37bbd09bee475dab6905b231ae2b72714d3d259628c16"
+  },
+  {
+    "seq": 79,
+    "tick": 74,
+    "kind": "published",
+    "phases": [
+      "apply_events",
+      "route_workload",
+      "update_resources",
+      "emit_observations",
+      "publish_snapshot"
+    ],
+    "snapshot_hash": "388b186cb3730911c7f0eaa7e9346bccca89887577323ca3f264477e942662e0"
+  },
+  {
+    "seq": 80,
+    "tick": 75,
+    "kind": "published",
+    "phases": [
+      "apply_events",
+      "route_workload",
+      "update_resources",
+      "emit_observations",
+      "publish_snapshot"
+    ],
+    "snapshot_hash": "09bc22e306c5ae9941a1cbaff71c3554f7cb9ebc0f60a8fdfa17bf37f0ce8c6f"
+  },
+  {
+    "seq": 81,
+    "tick": 76,
+    "kind": "published",
+    "phases": [
+      "apply_events",
+      "route_workload",
+      "update_resources",
+      "emit_observations",
+      "publish_snapshot"
+    ],
+    "snapshot_hash": "ce26312f1713c302d250bcd4e078af8619db8ec2ad9fcc9073b68491de5918d3"
+  },
+  {
+    "seq": 82,
+    "tick": 77,
+    "kind": "published",
+    "phases": [
+      "apply_events",
+      "route_workload",
+      "update_resources",
+      "emit_observations",
+      "publish_snapshot"
+    ],
+    "snapshot_hash": "a2525e247de86dff29a0bf18af39502a92edcf8237f5102b7b56e2f04231e506"
+  },
+  {
+    "seq": 83,
+    "tick": 78,
+    "kind": "published",
+    "phases": [
+      "apply_events",
+      "route_workload",
+      "update_resources",
+      "emit_observations",
+      "publish_snapshot"
+    ],
+    "snapshot_hash": "422293ed322b8b3b06166d9bf87ac78d029ff720a750b8203f5826af3661d62b"
+  },
+  {
+    "seq": 84,
+    "tick": 79,
+    "kind": "published",
+    "phases": [
+      "apply_events",
+      "route_workload",
+      "update_resources",
+      "emit_observations",
+      "publish_snapshot"
+    ],
+    "snapshot_hash": "0ddec0b96138961f0a9440c9e07fe77ec5fa012ba240c453c316592e18a3bf83"
+  },
+  {
+    "seq": 85,
+    "tick": 80,
+    "kind": "published",
+    "phases": [
+      "apply_events",
+      "route_workload",
+      "update_resources",
+      "emit_observations",
+      "publish_snapshot"
+    ],
+    "snapshot_hash": "da94978c6f584012b6e8405d29fe401b5ca59ca2866be1f6bc300613f6f960c3"
+  },
+  {
+    "seq": 86,
+    "tick": 81,
+    "kind": "published",
+    "phases": [
+      "apply_events",
+      "route_workload",
+      "update_resources",
+      "emit_observations",
+      "publish_snapshot"
+    ],
+    "snapshot_hash": "6a099a75736c3c00a13149f15904b8d18e81c9bbc4291e3f1d3f4b43ebda3595"
+  },
+  {
+    "seq": 87,
+    "tick": 82,
+    "kind": "published",
+    "phases": [
+      "apply_events",
+      "route_workload",
+      "update_resources",
+      "emit_observations",
+      "publish_snapshot"
+    ],
+    "snapshot_hash": "559ca11c425cda068d687ffd9d23afa15b602eafda7fa04d1cbb959b4b38758e"
+  },
+  {
+    "seq": 88,
+    "tick": 83,
+    "kind": "published",
+    "phases": [
+      "apply_events",
+      "route_workload",
+      "update_resources",
+      "emit_observations",
+      "publish_snapshot"
+    ],
+    "snapshot_hash": "0b6631ba2c5fd06a4c82fe24ccc0e3b889a2d65fff39aaa347800e28ffa95b55"
+  },
+  {
+    "seq": 89,
+    "tick": 84,
+    "kind": "published",
+    "phases": [
+      "apply_events",
+      "route_workload",
+      "update_resources",
+      "emit_observations",
+      "publish_snapshot"
+    ],
+    "snapshot_hash": "a265a7929f070d7f2ef7c7c61d4a3d170c3eb3107df455eef1385d0faceee89d"
+  },
+  {
+    "seq": 90,
+    "tick": 85,
+    "kind": "published",
+    "phases": [
+      "apply_events",
+      "route_workload",
+      "update_resources",
+      "emit_observations",
+      "publish_snapshot"
+    ],
+    "snapshot_hash": "dbf6cd0ca06d4df028d10d723bf75e210ab8e4cab651c1de03ab703bcddc43e2"
+  }
+]

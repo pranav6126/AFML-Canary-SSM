@@ -1,0 +1,719 @@
+{
+  "tick": 85,
+  "simulated_seconds": 85,
+  "state": "paused",
+  "world": {
+    "data_centers": [
+      {
+        "data_center_id": "dc"
+      }
+    ],
+    "racks": [
+      {
+        "rack_id": "rack",
+        "data_center_id": "dc"
+      }
+    ],
+    "hosts": [
+      {
+        "host_id": "host-1",
+        "rack_id": "rack",
+        "data_center_id": "dc",
+        "class_id": 0,
+        "capacity": {
+          "cpu_cores": 1,
+          "memory_mb": 128,
+          "disk_mb": 1000,
+          "network_mbps": 1000
+        },
+        "usage": {
+          "cpu_cores": 0.0,
+          "memory_mb": 3.0,
+          "disk_mb": 0.0,
+          "network_mbps": 0.0
+        },
+        "lifecycle": "ready"
+      },
+      {
+        "host_id": "host-2",
+        "rack_id": "rack",
+        "data_center_id": "dc",
+        "class_id": 0,
+        "capacity": {
+          "cpu_cores": 1,
+          "memory_mb": 128,
+          "disk_mb": 1000,
+          "network_mbps": 1000
+        },
+        "usage": {
+          "cpu_cores": 1,
+          "memory_mb": 6.0,
+          "disk_mb": 0.0,
+          "network_mbps": 5.12
+        },
+        "lifecycle": "ready"
+      },
+      {
+        "host_id": "host-3",
+        "rack_id": "rack",
+        "data_center_id": "dc",
+        "class_id": 0,
+        "capacity": {
+          "cpu_cores": 1,
+          "memory_mb": 128,
+          "disk_mb": 1000,
+          "network_mbps": 1000
+        },
+        "usage": {
+          "cpu_cores": 1,
+          "memory_mb": 5.45,
+          "disk_mb": 0.0,
+          "network_mbps": 5.12
+        },
+        "lifecycle": "ready"
+      },
+      {
+        "host_id": "host-4",
+        "rack_id": "rack",
+        "data_center_id": "dc",
+        "class_id": 0,
+        "capacity": {
+          "cpu_cores": 1,
+          "memory_mb": 128,
+          "disk_mb": 1000,
+          "network_mbps": 1000
+        },
+        "usage": {
+          "cpu_cores": 1,
+          "memory_mb": 8.7,
+          "disk_mb": 0.0,
+          "network_mbps": 5.12
+        },
+        "lifecycle": "ready"
+      }
+    ],
+    "replicas": [
+      {
+        "service_id": "service",
+        "replica_id": "replica-1",
+        "host_id": "host-1",
+        "release_id": "candidate"
+      },
+      {
+        "service_id": "service",
+        "replica_id": "replica-2",
+        "host_id": "host-2",
+        "release_id": "baseline"
+      },
+      {
+        "service_id": "service",
+        "replica_id": "replica-3",
+        "host_id": "host-3",
+        "release_id": "baseline"
+      },
+      {
+        "service_id": "service",
+        "replica_id": "replica-4",
+        "host_id": "host-4",
+        "release_id": "baseline"
+      }
+    ],
+    "schema_version": 1
+  },
+  "workload": {
+    "adapter": "bounded-fifo-core-seconds-v1",
+    "shared_traffic_factor": 1.0,
+    "services": [
+      {
+        "service_id": "service",
+        "shared_traffic_factor": 1.0,
+        "arrivals": 30,
+        "dropped_oom": 0,
+        "canary_requested": 0,
+        "control_requested": 0,
+        "routing_rollout_id": null,
+        "dropped_arrival_limit": 0,
+        "dropped_unavailable_routes": 0,
+        "accepted": 30,
+        "dropped_queue": 0,
+        "dropped_memory": 0,
+        "dropped_unavailable_queued": 0,
+        "completed": 0,
+        "processed": 0,
+        "errors": 0,
+        "succeeded": 0,
+        "dropped_restart": 0,
+        "queue_start": 223
+      }
+    ]
+  },
+  "observations": [
+    {
+      "tick": 85,
+      "simulated_seconds": 85,
+      "host_id": "host-1",
+      "rack_id": "rack",
+      "class_id": 0,
+      "available": true,
+      "queue_start": 0,
+      "routed_requests": 0,
+      "accepted": 0,
+      "dropped_queue": 0,
+      "dropped_memory": 0,
+      "dropped_restart": 0,
+      "dropped_oom": 0,
+      "dropped_unavailable_routes": 0,
+      "dropped_unavailable_queued": 0,
+      "completed": 0,
+      "processed": 0,
+      "errors": 0,
+      "succeeded": 0,
+      "queue_end": 0,
+      "pending_response_count": 0,
+      "cpu_cores": 0.0,
+      "cpu_utilization": 0.0,
+      "cpu_capacity_cores": 1.0,
+      "memory_baseline_mb": 3.0,
+      "memory_temporary_mb": 0.0,
+      "memory_retained_mb": 0.0,
+      "memory_mb": 3.0,
+      "memory_platform_mb": 0.0,
+      "network_mbps": 0.0,
+      "network_capacity_mbps": 1000.0,
+      "memory_peak_mb": 3.0,
+      "memory_capacity_mb": 128,
+      "retention_blocked_mb": 0.0,
+      "memory_headroom_mb": 125.0,
+      "pressure_slowdown_factor": 1.0,
+      "request_retained_added_mb": 0.0,
+      "background_retained_added_mb": 0.0,
+      "retained_added_mb_per_request": null,
+      "process_restart_count": 1,
+      "process_generation": 1,
+      "oom_count": 1,
+      "process_state": "OOM",
+      "release_ids": "candidate",
+      "sampled_latency_mean_ms": null,
+      "latency_proxy_ms": null
+    },
+    {
+      "tick": 85,
+      "simulated_seconds": 85,
+      "host_id": "host-2",
+      "rack_id": "rack",
+      "class_id": 0,
+      "available": true,
+      "queue_start": 62,
+      "routed_requests": 8,
+      "accepted": 8,
+      "dropped_queue": 0,
+      "dropped_memory": 0,
+      "dropped_restart": 0,
+      "dropped_oom": 0,
+      "dropped_unavailable_routes": 0,
+      "dropped_unavailable_queued": 0,
+      "completed": 10,
+      "processed": 10,
+      "errors": 0,
+      "succeeded": 10,
+      "queue_end": 60,
+      "pending_response_count": 0,
+      "cpu_cores": 1,
+      "cpu_utilization": 1.0,
+      "cpu_capacity_cores": 1.0,
+      "memory_baseline_mb": 3.0,
+      "memory_temporary_mb": 3.0,
+      "memory_retained_mb": 0.0,
+      "memory_mb": 6.0,
+      "memory_platform_mb": 0.0,
+      "network_mbps": 5.12,
+      "network_capacity_mbps": 1000.0,
+      "memory_peak_mb": 6.5,
+      "memory_capacity_mb": 128,
+      "retention_blocked_mb": 0.0,
+      "memory_headroom_mb": 122.0,
+      "pressure_slowdown_factor": 1.0,
+      "request_retained_added_mb": 0.0,
+      "background_retained_added_mb": 0.0,
+      "retained_added_mb_per_request": 0.0,
+      "process_restart_count": 0,
+      "process_generation": 0,
+      "oom_count": 0,
+      "process_state": "RUNNING",
+      "release_ids": "baseline",
+      "sampled_latency_mean_ms": 5800.0,
+      "latency_proxy_ms": 6100.0
+    },
+    {
+      "tick": 85,
+      "simulated_seconds": 85,
+      "host_id": "host-3",
+      "rack_id": "rack",
+      "class_id": 0,
+      "available": true,
+      "queue_start": 44,
+      "routed_requests": 15,
+      "accepted": 15,
+      "dropped_queue": 0,
+      "dropped_memory": 0,
+      "dropped_restart": 0,
+      "dropped_oom": 0,
+      "dropped_unavailable_routes": 0,
+      "dropped_unavailable_queued": 0,
+      "completed": 10,
+      "processed": 10,
+      "errors": 0,
+      "succeeded": 10,
+      "queue_end": 49,
+      "pending_response_count": 0,
+      "cpu_cores": 1,
+      "cpu_utilization": 1.0,
+      "cpu_capacity_cores": 1.0,
+      "memory_baseline_mb": 3.0,
+      "memory_temporary_mb": 2.45,
+      "memory_retained_mb": 0.0,
+      "memory_mb": 5.45,
+      "memory_platform_mb": 0.0,
+      "network_mbps": 5.12,
+      "network_capacity_mbps": 1000.0,
+      "memory_peak_mb": 5.95,
+      "memory_capacity_mb": 128,
+      "retention_blocked_mb": 0.0,
+      "memory_headroom_mb": 122.55,
+      "pressure_slowdown_factor": 1.0,
+      "request_retained_added_mb": 0.0,
+      "background_retained_added_mb": 0.0,
+      "retained_added_mb_per_request": 0.0,
+      "process_restart_count": 0,
+      "process_generation": 0,
+      "oom_count": 0,
+      "process_state": "RUNNING",
+      "release_ids": "baseline",
+      "sampled_latency_mean_ms": 5000.0,
+      "latency_proxy_ms": 5000.0
+    },
+    {
+      "tick": 85,
+      "simulated_seconds": 85,
+      "host_id": "host-4",
+      "rack_id": "rack",
+      "class_id": 0,
+      "available": true,
+      "queue_start": 117,
+      "routed_requests": 7,
+      "accepted": 7,
+      "dropped_queue": 0,
+      "dropped_memory": 0,
+      "dropped_restart": 0,
+      "dropped_oom": 0,
+      "dropped_unavailable_routes": 0,
+      "dropped_unavailable_queued": 0,
+      "completed": 10,
+      "processed": 10,
+      "errors": 0,
+      "succeeded": 10,
+      "queue_end": 114,
+      "pending_response_count": 0,
+      "cpu_cores": 1,
+      "cpu_utilization": 1.0,
+      "cpu_capacity_cores": 1.0,
+      "memory_baseline_mb": 3.0,
+      "memory_temporary_mb": 5.7,
+      "memory_retained_mb": 0.0,
+      "memory_mb": 8.7,
+      "memory_platform_mb": 0.0,
+      "network_mbps": 5.12,
+      "network_capacity_mbps": 1000.0,
+      "memory_peak_mb": 9.2,
+      "memory_capacity_mb": 128,
+      "retention_blocked_mb": 0.0,
+      "memory_headroom_mb": 119.3,
+      "pressure_slowdown_factor": 1.0,
+      "request_retained_added_mb": 0.0,
+      "background_retained_added_mb": 0.0,
+      "retained_added_mb_per_request": 0.0,
+      "process_restart_count": 0,
+      "process_generation": 0,
+      "oom_count": 0,
+      "process_state": "RUNNING",
+      "release_ids": "baseline",
+      "sampled_latency_mean_ms": 11500.0,
+      "latency_proxy_ms": 11500.0
+    }
+  ],
+  "resources": {
+    "adapter": "bounded-fifo-core-seconds-v1",
+    "replicas": [
+      {
+        "replica_id": "replica-1",
+        "service_id": "service",
+        "host_id": "host-1",
+        "release_id": "candidate",
+        "queue": [],
+        "queued_requests": 0,
+        "pending_response_count": 0,
+        "process_state": "OOM",
+        "process_generation": 1,
+        "restart_count": 1,
+        "oom_count": 1,
+        "head_progress_core_seconds": 0.0,
+        "retained_memory_mb": 0.0
+      },
+      {
+        "replica_id": "replica-2",
+        "service_id": "service",
+        "host_id": "host-2",
+        "release_id": "baseline",
+        "queue": [
+          [
+            81,
+            12
+          ],
+          [
+            82,
+            17
+          ],
+          [
+            83,
+            9
+          ],
+          [
+            84,
+            14
+          ],
+          [
+            85,
+            8
+          ]
+        ],
+        "queued_requests": 60,
+        "pending_response_count": 0,
+        "process_state": "RUNNING",
+        "process_generation": 0,
+        "restart_count": 0,
+        "oom_count": 0,
+        "head_progress_core_seconds": 0.0,
+        "retained_memory_mb": 0.0
+      },
+      {
+        "replica_id": "replica-3",
+        "service_id": "service",
+        "host_id": "host-3",
+        "release_id": "baseline",
+        "queue": [
+          [
+            82,
+            12
+          ],
+          [
+            83,
+            10
+          ],
+          [
+            84,
+            12
+          ],
+          [
+            85,
+            15
+          ]
+        ],
+        "queued_requests": 49,
+        "pending_response_count": 0,
+        "process_state": "RUNNING",
+        "process_generation": 0,
+        "restart_count": 0,
+        "oom_count": 0,
+        "head_progress_core_seconds": 0.0,
+        "retained_memory_mb": 0.0
+      },
+      {
+        "replica_id": "replica-4",
+        "service_id": "service",
+        "host_id": "host-4",
+        "release_id": "baseline",
+        "queue": [
+          [
+            75,
+            10
+          ],
+          [
+            76,
+            12
+          ],
+          [
+            77,
+            8
+          ],
+          [
+            78,
+            9
+          ],
+          [
+            79,
+            9
+          ],
+          [
+            80,
+            7
+          ],
+          [
+            81,
+            16
+          ],
+          [
+            82,
+            13
+          ],
+          [
+            83,
+            11
+          ],
+          [
+            84,
+            12
+          ],
+          [
+            85,
+            7
+          ]
+        ],
+        "queued_requests": 114,
+        "pending_response_count": 0,
+        "process_state": "RUNNING",
+        "process_generation": 0,
+        "restart_count": 0,
+        "oom_count": 0,
+        "head_progress_core_seconds": 0.0,
+        "retained_memory_mb": 0.0
+      }
+    ],
+    "services": [
+      {
+        "tick": 85,
+        "simulated_seconds": 85,
+        "service_id": "service",
+        "shared_traffic_factor": 1.0,
+        "arrivals": 30,
+        "dropped_oom": 0,
+        "canary_requested": 0,
+        "control_requested": 0,
+        "routing_rollout_id": null,
+        "dropped_arrival_limit": 0,
+        "dropped_unavailable_routes": 0,
+        "accepted": 30,
+        "dropped_queue": 0,
+        "dropped_memory": 0,
+        "dropped_unavailable_queued": 0,
+        "completed": 30,
+        "processed": 30,
+        "errors": 0,
+        "succeeded": 30,
+        "dropped_restart": 0,
+        "queue_start": 223,
+        "queue_end": 223,
+        "pending_response_count": 0
+      }
+    ],
+    "process_events": [
+      {
+        "sequence": 0,
+        "tick": 6,
+        "replica_id": "replica-1",
+        "host_id": "host-1",
+        "kind": "RESTART",
+        "reason": "release_replacement",
+        "generation": 1,
+        "reclaimed_retained_mb": 0.0,
+        "dropped_requests": 0
+      },
+      {
+        "sequence": 1,
+        "tick": 9,
+        "replica_id": "replica-1",
+        "host_id": "host-1",
+        "kind": "OOM",
+        "reason": "retained_allocation_failed",
+        "generation": 1,
+        "reclaimed_retained_mb": 96.0,
+        "dropped_requests": 0
+      }
+    ],
+    "process_events_evicted": 0,
+    "trace_rows_evicted": {
+      "host": 0,
+      "service": 0
+    }
+  },
+  "resource_health": {
+    "policy": {
+      "policy_id": "resource-health-dev-v1",
+      "window_seconds": 10,
+      "minimum_span_seconds": 5,
+      "minimum_samples": 3,
+      "minimum_processed": 20,
+      "growth_mb_per_request": 0.05,
+      "growth_mb_per_second": 0.5,
+      "pressure_fraction": 0.8
+    },
+    "policy_sha256": "d89f317b8b6ec6db816ac1b490c86ab8d10a3962d626703c97bda161f734cd0d",
+    "advisories": [
+      {
+        "host_id": "host-1",
+        "policy_id": "resource-health-dev-v1",
+        "criteria_provenance": "development-defined engineering criteria; not a calibrated SSM policy",
+        "status": "process_unavailable",
+        "flags": [
+          "process_unavailable_after_oom"
+        ],
+        "label": "Resource-health advisory",
+        "interpretation": "Observed resource behavior; not SSM proof of a code-level leak. Cache warmup can warn too.",
+        "request_growth_eligible": false,
+        "idle_growth_eligible": true,
+        "span_seconds": 10,
+        "processed_requests": 0,
+        "retained_delta_mb": 0.0,
+        "growth_mb_per_request": null,
+        "growth_mb_per_second": 0.0,
+        "memory_headroom_mb": 125.0,
+        "process_restart_count": 1,
+        "oom_count": 1,
+        "fresh": true,
+        "latency_detector_decision": null,
+        "automatic_action": null
+      },
+      {
+        "host_id": "host-2",
+        "policy_id": "resource-health-dev-v1",
+        "criteria_provenance": "development-defined engineering criteria; not a calibrated SSM policy",
+        "status": "no_current_resource_warning",
+        "flags": [],
+        "label": "Resource-health advisory",
+        "interpretation": "Observed resource behavior; not SSM proof of a code-level leak. Cache warmup can warn too.",
+        "request_growth_eligible": true,
+        "idle_growth_eligible": false,
+        "span_seconds": 10,
+        "processed_requests": 100,
+        "retained_delta_mb": 0.0,
+        "growth_mb_per_request": 0.0,
+        "growth_mb_per_second": 0.0,
+        "memory_headroom_mb": 122.0,
+        "process_restart_count": 0,
+        "oom_count": 0,
+        "fresh": true,
+        "latency_detector_decision": null,
+        "automatic_action": null
+      },
+      {
+        "host_id": "host-3",
+        "policy_id": "resource-health-dev-v1",
+        "criteria_provenance": "development-defined engineering criteria; not a calibrated SSM policy",
+        "status": "no_current_resource_warning",
+        "flags": [],
+        "label": "Resource-health advisory",
+        "interpretation": "Observed resource behavior; not SSM proof of a code-level leak. Cache warmup can warn too.",
+        "request_growth_eligible": true,
+        "idle_growth_eligible": false,
+        "span_seconds": 10,
+        "processed_requests": 100,
+        "retained_delta_mb": 0.0,
+        "growth_mb_per_request": 0.0,
+        "growth_mb_per_second": 0.0,
+        "memory_headroom_mb": 122.55,
+        "process_restart_count": 0,
+        "oom_count": 0,
+        "fresh": true,
+        "latency_detector_decision": null,
+        "automatic_action": null
+      },
+      {
+        "host_id": "host-4",
+        "policy_id": "resource-health-dev-v1",
+        "criteria_provenance": "development-defined engineering criteria; not a calibrated SSM policy",
+        "status": "no_current_resource_warning",
+        "flags": [],
+        "label": "Resource-health advisory",
+        "interpretation": "Observed resource behavior; not SSM proof of a code-level leak. Cache warmup can warn too.",
+        "request_growth_eligible": true,
+        "idle_growth_eligible": false,
+        "span_seconds": 10,
+        "processed_requests": 100,
+        "retained_delta_mb": 0.0,
+        "growth_mb_per_request": 0.0,
+        "growth_mb_per_second": 0.0,
+        "memory_headroom_mb": 119.3,
+        "process_restart_count": 0,
+        "oom_count": 0,
+        "fresh": true,
+        "latency_detector_decision": null,
+        "automatic_action": null
+      }
+    ],
+    "separate_from_latency_detector": true
+  },
+  "deployment": {
+    "release_id": "candidate",
+    "release_metadata": {
+      "release_id": "candidate",
+      "service_id": "service",
+      "version": "3.0.0",
+      "content_hash": "9e91f134bd1256b3e18ccfbe2e450dfb9db3bf700c48ebf6ba405985aecfe2fc"
+    },
+    "service_id": "service",
+    "per_rack": 1,
+    "group_by": "rack_id",
+    "canaries": [
+      "host-1"
+    ],
+    "controls": [
+      "host-2",
+      "host-3",
+      "host-4"
+    ],
+    "racks": [
+      {
+        "rack_id": "rack",
+        "canaries": [
+          "host-1"
+        ],
+        "controls": [
+          "host-2",
+          "host-3",
+          "host-4"
+        ]
+      }
+    ],
+    "baseline_versions": {
+      "replica-1": "baseline",
+      "replica-2": "baseline",
+      "replica-3": "baseline",
+      "replica-4": "baseline"
+    },
+    "plan_id": "689f9032afd5f7b514d5e629ab1de60c77c3c3cff3e8b3bfadda6ab7746164c5",
+    "status": "canary",
+    "exposure_tick": 6,
+    "last_transition_tick": 6
+  },
+  "telemetry": {
+    "enabled": true,
+    "run_id": "memory-development-4",
+    "epoch": 0,
+    "received_records": 340,
+    "closed_minutes": 1,
+    "pending_records": 0,
+    "transport_counters": {
+      "source_drops": 0,
+      "window_drops": 0,
+      "transport_capacity_drops": 0,
+      "duplicates_sent": 0
+    },
+    "receiver_counters": {
+      "duplicates": 0,
+      "conflicts": 0,
+      "late": 0,
+      "capacity_drops": 0
+    },
+    "latency_metric": "completed_request_tick_latency_ms",
+    "window_seconds": 60
+  }
+}

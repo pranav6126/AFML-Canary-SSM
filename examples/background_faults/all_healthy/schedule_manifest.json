@@ -1,0 +1,26 @@
+{
+  "scheduler_id": "background-grid-hazard-v1",
+  "sampling_rule": "bernoulli-per-target-per-tick",
+  "time_unit": "simulated_second",
+  "config": {
+    "enabled": true,
+    "seed": 10000,
+    "mode": "fixed",
+    "horizon_ticks": 100,
+    "max_concurrent": 1,
+    "max_events": 500,
+    "fixed_cooldown_seconds": 0,
+    "rules": [],
+    "fixed_events": []
+  },
+  "sampling": [],
+  "summary": {
+    "candidate_events": 0,
+    "rejected_cooldown": 0,
+    "rejected_concurrency": 0,
+    "rejected_capacity": 0,
+    "accepted_events": 0
+  },
+  "events": [],
+  "schedule_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+}

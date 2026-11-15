@@ -1,0 +1,348 @@
+{
+  "format": "detector-monitor-v1",
+  "artifact_id": "physical-policy-221f2b817cbc42a5",
+  "version": "physical-public-producer-v1",
+  "replay_id": "physical-policy-http-slow_4",
+  "run_id": "physical-policy-http-slow_4",
+  "source_kind": "external-detector-stream",
+  "host_roster": [
+    {
+      "host_id": "host-01-01",
+      "rack_id": "rack-01"
+    },
+    {
+      "host_id": "host-02-02",
+      "rack_id": "rack-02"
+    },
+    {
+      "host_id": "host-03-01",
+      "rack_id": "rack-03"
+    },
+    {
+      "host_id": "host-04-01",
+      "rack_id": "rack-04"
+    }
+  ],
+  "methods": [
+    {
+      "method_id": "independent",
+      "version": "221f2b817cbc42a58090edf58adfd25fde96acfd7767a17cb53ca609c645c5ed",
+      "kind": "independent",
+      "settings": {
+        "prior_sd": 0.03
+      }
+    }
+  ],
+  "exposure_time": 3660,
+  "simulated": true,
+  "frames": [
+    {
+      "event_time": 3660.0,
+      "decision_time": 3660.0,
+      "input_sha256": "8186903a67f0b947b62301298abbb38ecc205089f450b44fae8a77dea200859d",
+      "observed": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "eligible": false,
+      "latency_ms": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "residual": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "quality_flags": [
+        "insufficient_canary_coverage",
+        "no_current_workload_support_overlap:rack-01",
+        "no_current_workload_support_overlap:rack-02",
+        "no_current_workload_support_overlap:rack-03",
+        "no_current_workload_support_overlap:rack-04"
+      ],
+      "methods": {
+        "independent": {
+          "mean": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "covariance": [
+            [
+              0.0009,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0009,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0009,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0009
+            ]
+          ],
+          "group": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "deviation": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      }
+    },
+    {
+      "event_time": 3720.0,
+      "decision_time": 3720.0,
+      "input_sha256": "8186903a67f0b947b62301298abbb38ecc205089f450b44fae8a77dea200859d",
+      "observed": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "eligible": false,
+      "latency_ms": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "residual": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "quality_flags": [
+        "insufficient_canary_coverage",
+        "no_current_workload_support_overlap:rack-01",
+        "no_current_workload_support_overlap:rack-02",
+        "no_current_workload_support_overlap:rack-03",
+        "no_current_workload_support_overlap:rack-04"
+      ],
+      "methods": {
+        "independent": {
+          "mean": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "covariance": [
+            [
+              0.0008372499999999999,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0008372499999999999,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0008372499999999999,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0008372499999999999
+            ]
+          ],
+          "group": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "deviation": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      }
+    },
+    {
+      "event_time": 3780.0,
+      "decision_time": 3780.0,
+      "input_sha256": "c853f6ad6b7564619b1e951ff3d8d4b0c04fa49cb6cc62a56da084d7978367e2",
+      "observed": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "eligible": true,
+      "latency_ms": [
+        180000.0,
+        180000.0,
+        180000.0,
+        180000.0
+      ],
+      "residual": [
+        1.096752113064089,
+        1.1005892884883566,
+        1.0901023248757078,
+        1.103353087936366
+      ],
+      "quality_flags": [
+        "no_current_workload_support_overlap:rack-02",
+        "workload_extrapolation"
+      ],
+      "methods": {
+        "independent": {
+          "mean": [
+            0.6475717425729087,
+            0.6178887926700222,
+            0.7119559471173402,
+            0.6561890153276688
+          ],
+          "covariance": [
+            [
+              0.0003069686413568992,
+              4.66619714317107e-06,
+              3.3076427591129147e-06,
+              4.7730642381388255e-06
+            ],
+            [
+              4.66619714317107e-06,
+              0.0003263164219059998,
+              4.6771031219972825e-06,
+              6.748162591166042e-06
+            ],
+            [
+              3.3076427591129147e-06,
+              4.6771031219972825e-06,
+              0.0002579284838339986,
+              4.783649668135501e-06
+            ],
+            [
+              4.7730642381388255e-06,
+              6.748162591166042e-06,
+              4.783649668135501e-06,
+              0.00030014952512930656
+            ]
+          ],
+          "group": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "deviation": [
+            0.6475717425729087,
+            0.6178887926700222,
+            0.7119559471173402,
+            0.6561890153276688
+          ]
+        }
+      }
+    },
+    {
+      "event_time": 3840.0,
+      "decision_time": 3840.0,
+      "input_sha256": "189baf6e7548fb20b39bfac39eb3494f5d9a98d3f84d3c19549f37d5981d11a8",
+      "observed": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "eligible": true,
+      "latency_ms": [
+        183654.82233502538,
+        183789.47368421053,
+        189320.38834951457,
+        180000.0
+      ],
+      "residual": [
+        1.0541617140008148,
+        1.0338243917392977,
+        1.088337403231097,
+        1.0119007186991733
+      ],
+      "quality_flags": [],
+      "methods": {
+        "independent": {
+          "mean": [
+            0.7183061852577003,
+            0.7062386993540196,
+            0.8070669720777671,
+            0.7249269258805449
+          ],
+          "covariance": [
+            [
+              0.00022996914650652884,
+              3.06315688183914e-06,
+              2.1038751363033516e-06,
+              3.068379726679942e-06
+            ],
+            [
+              3.06315688183914e-06,
+              0.00023189493686792887,
+              3.0811142048672333e-06,
+              4.4931166371082876e-06
+            ],
+            [
+              2.1038751363033516e-06,
+              3.0811142048672333e-06,
+              0.00017658501500106993,
+              3.0861687459534743e-06
+            ],
+            [
+              3.068379726679942e-06,
+              4.4931166371082876e-06,
+              3.0861687459534743e-06,
+              0.00021412953134872695
+            ]
+          ],
+          "group": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "deviation": [
+            0.7183061852577003,
+            0.7062386993540196,
+            0.8070669720777671,
+            0.7249269258805449
+          ]
+        }
+      }
+    }
+  ],
+  "artifact_sha256": "88b389913febf4ae94865ad425e580e1991a7ca995ab3b7b2b9385ba093c4872"
+}

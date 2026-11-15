@@ -1,0 +1,65 @@
+{
+  "generator_id": "resource-world-process-memory-v1",
+  "role": "development",
+  "results": {
+    "cache_plateau": {
+      "checks": {
+        "bounded_usage": true,
+        "queue_conservation": true,
+        "verified_replay": true,
+        "plateau": true,
+        "no_oom": true,
+        "warning_clears_at_plateau": true
+      },
+      "passed": true
+    },
+    "retention_no_latency_harm": {
+      "checks": {
+        "bounded_usage": true,
+        "queue_conservation": true,
+        "verified_replay": true,
+        "growing": true,
+        "no_latency_harm": true,
+        "no_pressure": true,
+        "observed_warning": true
+      },
+      "passed": true
+    },
+    "pressure_latency_harm": {
+      "checks": {
+        "bounded_usage": true,
+        "queue_conservation": true,
+        "verified_replay": true,
+        "pressure": true,
+        "latency_harm": true,
+        "no_oom": true
+      },
+      "passed": true
+    },
+    "oom": {
+      "checks": {
+        "bounded_usage": true,
+        "queue_conservation": true,
+        "verified_replay": true,
+        "oom_exit": true,
+        "stays_down": true,
+        "heap_freed_on_exit": true
+      },
+      "passed": true
+    },
+    "recovery": {
+      "checks": {
+        "bounded_usage": true,
+        "queue_conservation": true,
+        "verified_replay": true,
+        "oom_before_recovery": true,
+        "rollback_restart": true,
+        "recovered": true,
+        "latency_recovered": true
+      },
+      "passed": true
+    }
+  },
+  "passed": true,
+  "not_a_detector_benchmark": true
+}

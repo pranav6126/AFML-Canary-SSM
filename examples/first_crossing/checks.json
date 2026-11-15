@@ -1,0 +1,206 @@
+{
+  "fixture_id": "conditional-gaussian-first-crossing-v1",
+  "resource_world_compatible": false,
+  "B": 2000,
+  "n_validation": 2000,
+  "H": 4,
+  "role_separation": true,
+  "checks": {
+    "null_maxima_recomputed": true,
+    "k_476_example": true,
+    "no_retuning": true,
+    "eligibility_defaults": true,
+    "combined_report_present": true
+  },
+  "validation_gate": {
+    "status": "PASS",
+    "minimum_B": 2000,
+    "minimum_n": 2000,
+    "bb_pvalue_two_sided": 0.6047305426933629,
+    "rejection_level": 0.01,
+    "maximum_empirical_release_rate": 0.075,
+    "note": "G2-style conditional diagnostic; Beta-Binomial continuity/exchangeability assumptions are explicit. Combined action FAR is reported separately and is not controlled at release alpha."
+  },
+  "rank_500_example": {
+    "B": 500,
+    "k": 476,
+    "alpha": 0.05,
+    "threshold": -3.3465082586498562,
+    "ties_at_threshold": 1
+  },
+  "advisory_scope": "No independent platform/resource producer in this conditional latency generator. Extra channels have no events; their uncertainty intervals remain nonzero. Combined policy is not asserted controlled at alpha.",
+  "seed_registry_version": "2.1",
+  "development_calibration_seed_family": 21,
+  "validation_seed_family": 28,
+  "elapsed_seconds": 62.03138872099953,
+  "versions": {
+    "python": "3.12.14",
+    "numpy": "2.3.5"
+  },
+  "not_a_resource_world_benchmark": true,
+  "fit_failures_or_bounds": {
+    "a": {
+      "fits": [
+        {
+          "init_phi": 0.2,
+          "nll": -2876.5078463473765,
+          "success": true,
+          "boundary_hit": false,
+          "x": [
+            -0.0009986042995814373,
+            -5.308936434769738
+          ],
+          "status": 0,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+          "iterations": 5,
+          "function_evaluations": 30,
+          "bounds": [
+            [
+              -0.95,
+              0.99
+            ],
+            [
+              -9.210340371976182,
+              -1.6094379124341003
+            ]
+          ],
+          "white_sd_fixed": 0.0001
+        },
+        {
+          "init_phi": 0.6,
+          "nll": -2876.5078473716844,
+          "success": true,
+          "boundary_hit": false,
+          "x": [
+            -0.0009442245565948462,
+            -5.3089551293676065
+          ],
+          "status": 0,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+          "iterations": 7,
+          "function_evaluations": 36,
+          "bounds": [
+            [
+              -0.95,
+              0.99
+            ],
+            [
+              -9.210340371976182,
+              -1.6094379124341003
+            ]
+          ],
+          "white_sd_fixed": 0.0001
+        },
+        {
+          "init_phi": 0.9,
+          "nll": -2876.5078473717003,
+          "success": true,
+          "boundary_hit": false,
+          "x": [
+            -0.0009446448407411126,
+            -5.308955402709845
+          ],
+          "status": 0,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+          "iterations": 8,
+          "function_evaluations": 36,
+          "bounds": [
+            [
+              -0.95,
+              0.99
+            ],
+            [
+              -9.210340371976182,
+              -1.6094379124341003
+            ]
+          ],
+          "white_sd_fixed": 0.0001
+        }
+      ],
+      "success": true,
+      "boundary_hit": false
+    },
+    "b": {
+      "fits": [
+        {
+          "init_phi": 0.2,
+          "nll": -2769.6615516478946,
+          "success": true,
+          "boundary_hit": false,
+          "x": [
+            -0.012883614340403889,
+            -5.195808903342544
+          ],
+          "status": 0,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+          "iterations": 6,
+          "function_evaluations": 24,
+          "bounds": [
+            [
+              -0.95,
+              0.99
+            ],
+            [
+              -9.210340371976182,
+              -1.6094379124341003
+            ]
+          ],
+          "white_sd_fixed": 0.0001
+        },
+        {
+          "init_phi": 0.6,
+          "nll": -2769.661551647886,
+          "success": true,
+          "boundary_hit": false,
+          "x": [
+            -0.012883095507175773,
+            -5.195808356635468
+          ],
+          "status": 0,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+          "iterations": 6,
+          "function_evaluations": 24,
+          "bounds": [
+            [
+              -0.95,
+              0.99
+            ],
+            [
+              -9.210340371976182,
+              -1.6094379124341003
+            ]
+          ],
+          "white_sd_fixed": 0.0001
+        },
+        {
+          "init_phi": 0.9,
+          "nll": -2769.6615516478923,
+          "success": true,
+          "boundary_hit": false,
+          "x": [
+            -0.012883607236145754,
+            -5.195808918947382
+          ],
+          "status": 0,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+          "iterations": 7,
+          "function_evaluations": 27,
+          "bounds": [
+            [
+              -0.95,
+              0.99
+            ],
+            [
+              -9.210340371976182,
+              -1.6094379124341003
+            ]
+          ],
+          "white_sd_fixed": 0.0001
+        }
+      ],
+      "success": true,
+      "boundary_hit": false
+    }
+  },
+  "passed": true
+}

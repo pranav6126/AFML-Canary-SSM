@@ -1,0 +1,63 @@
+[
+  {
+    "schema_version": 1,
+    "release_id": "release-001",
+    "service_id": "demo-service",
+    "version": "1.0.0",
+    "content_hash": "594bc0d6e7fd97f649a99068b506dee47649f16f0bfacd466babec30d294ad32",
+    "creation_metadata": {
+      "author": "example-fixture",
+      "created_tick": 0,
+      "created_at": "2026-11-14T00:00:00Z",
+      "description": "Declared simulation only; no source execution"
+    },
+    "behavior_manifest": {
+      "profiles": [
+        {
+          "kind": "healthy"
+        }
+      ],
+      "schema_version": 1
+    },
+    "source_attachment": null,
+    "executed": false,
+    "mode": "declared-behavior-simulation"
+  },
+  {
+    "schema_version": 1,
+    "release_id": "release-002",
+    "service_id": "demo-service",
+    "version": "1.1.0",
+    "content_hash": "ac57eba1b61f310a61e7efcc016fdb6633c38a7de5e52a3d8acb4e7b74331af7",
+    "creation_metadata": {
+      "author": "example-fixture",
+      "created_tick": 0,
+      "created_at": "2026-11-14T00:00:00Z",
+      "description": "Declared simulation only; no source execution"
+    },
+    "behavior_manifest": {
+      "profiles": [
+        {
+          "kind": "extra_cpu_work",
+          "work_multiplier": 2.0
+        },
+        {
+          "error_probability": 0.1,
+          "kind": "increased_error_probability"
+        },
+        {
+          "kind": "retained_memory_leak",
+          "retained_mb_per_completion": 0.25
+        },
+        {
+          "kind": "slower_response",
+          "response_delay_ms": 1500.0
+        }
+      ],
+      "schema_version": 1
+    },
+    "source_attachment": null,
+    "executed": false,
+    "mode": "declared-behavior-simulation"
+  }
+]

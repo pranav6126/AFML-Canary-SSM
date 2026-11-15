@@ -1,0 +1,141 @@
+{
+  "signature": "07e7f5132b516387f576d7c66c5c24c353ff21639ef4c4fbe91f379bfb549fd9",
+  "score_sha256": "0b376060417a93182678bd41c2ef0db6baf565e72e6601d89f166e0ca1bcedbc",
+  "public_file_sha256": "7585695151fd518b5c64e7e543af263aa13987c8344517d2812758926760f5dd",
+  "truth_file_sha256": "b05212b459c2d24bab484f584373105d8ff7c807d399543db4906e838fccfa28",
+  "truth_path": "evaluator/truth.npz",
+  "rows": [
+    {
+      "method": "adj_ewma",
+      "run_id": "r-f0179f7112cd93a6c12cacb3",
+      "seed": 37693735,
+      "role": "null-validation",
+      "null_family": "rack_outage",
+      "maximum": 4.284195538792281,
+      "eligible_windows": 90,
+      "public_sha256": "e123da35ff4ab511b873ed3e3d2bc168a1000d8e89a21db340b5b091adff3f55",
+      "sample_index": 1235,
+      "score_sha256": "0b376060417a93182678bd41c2ef0db6baf565e72e6601d89f166e0ca1bcedbc"
+    },
+    {
+      "method": "adj_cusum",
+      "run_id": "r-f0179f7112cd93a6c12cacb3",
+      "seed": 37693735,
+      "role": "null-validation",
+      "null_family": "rack_outage",
+      "maximum": 41.35147773128398,
+      "eligible_windows": 90,
+      "public_sha256": "e123da35ff4ab511b873ed3e3d2bc168a1000d8e89a21db340b5b091adff3f55",
+      "sample_index": 1235,
+      "score_sha256": "0b376060417a93182678bd41c2ef0db6baf565e72e6601d89f166e0ca1bcedbc"
+    },
+    {
+      "method": "topk_cusum",
+      "run_id": "r-f0179f7112cd93a6c12cacb3",
+      "seed": 37693735,
+      "role": "null-validation",
+      "null_family": "rack_outage",
+      "maximum": 46.17065220572704,
+      "eligible_windows": 90,
+      "public_sha256": "e123da35ff4ab511b873ed3e3d2bc168a1000d8e89a21db340b5b091adff3f55",
+      "sample_index": 1235,
+      "score_sha256": "0b376060417a93182678bd41c2ef0db6baf565e72e6601d89f166e0ca1bcedbc"
+    },
+    {
+      "method": "independent",
+      "run_id": "r-f0179f7112cd93a6c12cacb3",
+      "seed": 37693735,
+      "role": "null-validation",
+      "null_family": "rack_outage",
+      "maximum": -0.7615706241103852,
+      "eligible_windows": 90,
+      "public_sha256": "e123da35ff4ab511b873ed3e3d2bc168a1000d8e89a21db340b5b091adff3f55",
+      "sample_index": 1235,
+      "score_sha256": "0b376060417a93182678bd41c2ef0db6baf565e72e6601d89f166e0ca1bcedbc"
+    },
+    {
+      "method": "complete_pooling",
+      "run_id": "r-f0179f7112cd93a6c12cacb3",
+      "seed": 37693735,
+      "role": "null-validation",
+      "null_family": "rack_outage",
+      "maximum": -6.848922826534734,
+      "eligible_windows": 90,
+      "public_sha256": "e123da35ff4ab511b873ed3e3d2bc168a1000d8e89a21db340b5b091adff3f55",
+      "sample_index": 1235,
+      "score_sha256": "0b376060417a93182678bd41c2ef0db6baf565e72e6601d89f166e0ca1bcedbc"
+    },
+    {
+      "method": "class_host",
+      "run_id": "r-f0179f7112cd93a6c12cacb3",
+      "seed": 37693735,
+      "role": "null-validation",
+      "null_family": "rack_outage",
+      "maximum": -0.4230867379656267,
+      "eligible_windows": 90,
+      "public_sha256": "e123da35ff4ab511b873ed3e3d2bc168a1000d8e89a21db340b5b091adff3f55",
+      "sample_index": 1235,
+      "score_sha256": "0b376060417a93182678bd41c2ef0db6baf565e72e6601d89f166e0ca1bcedbc"
+    },
+    {
+      "method": "factor_off",
+      "run_id": "r-f0179f7112cd93a6c12cacb3",
+      "seed": 37693735,
+      "role": "null-validation",
+      "null_family": "rack_outage",
+      "maximum": -0.676192181198587,
+      "eligible_windows": 90,
+      "public_sha256": "e123da35ff4ab511b873ed3e3d2bc168a1000d8e89a21db340b5b091adff3f55",
+      "sample_index": 1235,
+      "score_sha256": "0b376060417a93182678bd41c2ef0db6baf565e72e6601d89f166e0ca1bcedbc"
+    },
+    {
+      "method": "persistence_off",
+      "run_id": "r-f0179f7112cd93a6c12cacb3",
+      "seed": 37693735,
+      "role": "null-validation",
+      "null_family": "rack_outage",
+      "maximum": -1.2644184021474325,
+      "eligible_windows": 90,
+      "public_sha256": "e123da35ff4ab511b873ed3e3d2bc168a1000d8e89a21db340b5b091adff3f55",
+      "sample_index": 1235,
+      "score_sha256": "0b376060417a93182678bd41c2ef0db6baf565e72e6601d89f166e0ca1bcedbc"
+    },
+    {
+      "method": "ar_off",
+      "run_id": "r-f0179f7112cd93a6c12cacb3",
+      "seed": 37693735,
+      "role": "null-validation",
+      "null_family": "rack_outage",
+      "maximum": -0.15004589755538253,
+      "eligible_windows": 90,
+      "public_sha256": "e123da35ff4ab511b873ed3e3d2bc168a1000d8e89a21db340b5b091adff3f55",
+      "sample_index": 1235,
+      "score_sha256": "0b376060417a93182678bd41c2ef0db6baf565e72e6601d89f166e0ca1bcedbc"
+    },
+    {
+      "method": "weaker_pooling",
+      "run_id": "r-f0179f7112cd93a6c12cacb3",
+      "seed": 37693735,
+      "role": "null-validation",
+      "null_family": "rack_outage",
+      "maximum": -0.1627795133766653,
+      "eligible_windows": 90,
+      "public_sha256": "e123da35ff4ab511b873ed3e3d2bc168a1000d8e89a21db340b5b091adff3f55",
+      "sample_index": 1235,
+      "score_sha256": "0b376060417a93182678bd41c2ef0db6baf565e72e6601d89f166e0ca1bcedbc"
+    },
+    {
+      "method": "stronger_pooling",
+      "run_id": "r-f0179f7112cd93a6c12cacb3",
+      "seed": 37693735,
+      "role": "null-validation",
+      "null_family": "rack_outage",
+      "maximum": -0.4907293149944326,
+      "eligible_windows": 90,
+      "public_sha256": "e123da35ff4ab511b873ed3e3d2bc168a1000d8e89a21db340b5b091adff3f55",
+      "sample_index": 1235,
+      "score_sha256": "0b376060417a93182678bd41c2ef0db6baf565e72e6601d89f166e0ca1bcedbc"
+    }
+  ]
+}

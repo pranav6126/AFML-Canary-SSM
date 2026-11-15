@@ -1,0 +1,322 @@
+{
+  "topology": {
+    "data_centers": [
+      {
+        "data_center_id": "scenario-dc"
+      }
+    ],
+    "racks": [
+      {
+        "rack_id": "rack-a",
+        "data_center_id": "scenario-dc"
+      },
+      {
+        "rack_id": "rack-b",
+        "data_center_id": "scenario-dc"
+      }
+    ],
+    "hosts": [
+      {
+        "host_id": "host-a-0",
+        "rack_id": "rack-a",
+        "data_center_id": "scenario-dc",
+        "class_id": 0,
+        "capacity": {
+          "cpu_cores": 2,
+          "memory_mb": 1024,
+          "disk_mb": 10000,
+          "network_mbps": 100
+        },
+        "usage": {
+          "cpu_cores": 0.0,
+          "memory_mb": 0.0,
+          "disk_mb": 0.0,
+          "network_mbps": 0.0
+        },
+        "lifecycle": "ready"
+      },
+      {
+        "host_id": "host-a-1",
+        "rack_id": "rack-a",
+        "data_center_id": "scenario-dc",
+        "class_id": 1,
+        "capacity": {
+          "cpu_cores": 2,
+          "memory_mb": 1024,
+          "disk_mb": 10000,
+          "network_mbps": 100
+        },
+        "usage": {
+          "cpu_cores": 0.0,
+          "memory_mb": 0.0,
+          "disk_mb": 0.0,
+          "network_mbps": 0.0
+        },
+        "lifecycle": "ready"
+      },
+      {
+        "host_id": "host-a-2",
+        "rack_id": "rack-a",
+        "data_center_id": "scenario-dc",
+        "class_id": 0,
+        "capacity": {
+          "cpu_cores": 2,
+          "memory_mb": 1024,
+          "disk_mb": 10000,
+          "network_mbps": 100
+        },
+        "usage": {
+          "cpu_cores": 0.0,
+          "memory_mb": 0.0,
+          "disk_mb": 0.0,
+          "network_mbps": 0.0
+        },
+        "lifecycle": "ready"
+      },
+      {
+        "host_id": "host-a-3",
+        "rack_id": "rack-a",
+        "data_center_id": "scenario-dc",
+        "class_id": 1,
+        "capacity": {
+          "cpu_cores": 2,
+          "memory_mb": 1024,
+          "disk_mb": 10000,
+          "network_mbps": 100
+        },
+        "usage": {
+          "cpu_cores": 0.0,
+          "memory_mb": 0.0,
+          "disk_mb": 0.0,
+          "network_mbps": 0.0
+        },
+        "lifecycle": "ready"
+      },
+      {
+        "host_id": "host-a-4",
+        "rack_id": "rack-a",
+        "data_center_id": "scenario-dc",
+        "class_id": 0,
+        "capacity": {
+          "cpu_cores": 2,
+          "memory_mb": 1024,
+          "disk_mb": 10000,
+          "network_mbps": 100
+        },
+        "usage": {
+          "cpu_cores": 0.0,
+          "memory_mb": 0.0,
+          "disk_mb": 0.0,
+          "network_mbps": 0.0
+        },
+        "lifecycle": "ready"
+      },
+      {
+        "host_id": "host-b-0",
+        "rack_id": "rack-b",
+        "data_center_id": "scenario-dc",
+        "class_id": 0,
+        "capacity": {
+          "cpu_cores": 2,
+          "memory_mb": 1024,
+          "disk_mb": 10000,
+          "network_mbps": 100
+        },
+        "usage": {
+          "cpu_cores": 0.0,
+          "memory_mb": 0.0,
+          "disk_mb": 0.0,
+          "network_mbps": 0.0
+        },
+        "lifecycle": "ready"
+      },
+      {
+        "host_id": "host-b-1",
+        "rack_id": "rack-b",
+        "data_center_id": "scenario-dc",
+        "class_id": 1,
+        "capacity": {
+          "cpu_cores": 2,
+          "memory_mb": 1024,
+          "disk_mb": 10000,
+          "network_mbps": 100
+        },
+        "usage": {
+          "cpu_cores": 0.0,
+          "memory_mb": 0.0,
+          "disk_mb": 0.0,
+          "network_mbps": 0.0
+        },
+        "lifecycle": "ready"
+      },
+      {
+        "host_id": "host-b-2",
+        "rack_id": "rack-b",
+        "data_center_id": "scenario-dc",
+        "class_id": 0,
+        "capacity": {
+          "cpu_cores": 2,
+          "memory_mb": 1024,
+          "disk_mb": 10000,
+          "network_mbps": 100
+        },
+        "usage": {
+          "cpu_cores": 0.0,
+          "memory_mb": 0.0,
+          "disk_mb": 0.0,
+          "network_mbps": 0.0
+        },
+        "lifecycle": "ready"
+      },
+      {
+        "host_id": "host-b-3",
+        "rack_id": "rack-b",
+        "data_center_id": "scenario-dc",
+        "class_id": 1,
+        "capacity": {
+          "cpu_cores": 2,
+          "memory_mb": 1024,
+          "disk_mb": 10000,
+          "network_mbps": 100
+        },
+        "usage": {
+          "cpu_cores": 0.0,
+          "memory_mb": 0.0,
+          "disk_mb": 0.0,
+          "network_mbps": 0.0
+        },
+        "lifecycle": "ready"
+      },
+      {
+        "host_id": "host-b-4",
+        "rack_id": "rack-b",
+        "data_center_id": "scenario-dc",
+        "class_id": 0,
+        "capacity": {
+          "cpu_cores": 2,
+          "memory_mb": 1024,
+          "disk_mb": 10000,
+          "network_mbps": 100
+        },
+        "usage": {
+          "cpu_cores": 0.0,
+          "memory_mb": 0.0,
+          "disk_mb": 0.0,
+          "network_mbps": 0.0
+        },
+        "lifecycle": "ready"
+      }
+    ],
+    "replicas": [
+      {
+        "service_id": "scenario-service",
+        "replica_id": "replica-a-0",
+        "host_id": "host-a-0",
+        "release_id": "healthy-v1"
+      },
+      {
+        "service_id": "scenario-service",
+        "replica_id": "replica-a-1",
+        "host_id": "host-a-1",
+        "release_id": "healthy-v1"
+      },
+      {
+        "service_id": "scenario-service",
+        "replica_id": "replica-a-2",
+        "host_id": "host-a-2",
+        "release_id": "healthy-v1"
+      },
+      {
+        "service_id": "scenario-service",
+        "replica_id": "replica-a-3",
+        "host_id": "host-a-3",
+        "release_id": "healthy-v1"
+      },
+      {
+        "service_id": "scenario-service",
+        "replica_id": "replica-a-4",
+        "host_id": "host-a-4",
+        "release_id": "healthy-v1"
+      },
+      {
+        "service_id": "scenario-service",
+        "replica_id": "replica-b-0",
+        "host_id": "host-b-0",
+        "release_id": "healthy-v1"
+      },
+      {
+        "service_id": "scenario-service",
+        "replica_id": "replica-b-1",
+        "host_id": "host-b-1",
+        "release_id": "healthy-v1"
+      },
+      {
+        "service_id": "scenario-service",
+        "replica_id": "replica-b-2",
+        "host_id": "host-b-2",
+        "release_id": "healthy-v1"
+      },
+      {
+        "service_id": "scenario-service",
+        "replica_id": "replica-b-3",
+        "host_id": "host-b-3",
+        "release_id": "healthy-v1"
+      },
+      {
+        "service_id": "scenario-service",
+        "replica_id": "replica-b-4",
+        "host_id": "host-b-4",
+        "release_id": "healthy-v1"
+      }
+    ],
+    "schema_version": 1
+  },
+  "seed": 29040000,
+  "tick_seconds": 5,
+  "events": [],
+  "resources": {
+    "services": [
+      {
+        "service_id": "scenario-service",
+        "arrival_rate_rps": 260,
+        "work_core_seconds": 0.05,
+        "queue_limit": 200,
+        "baseline_memory_mb": 32,
+        "temporary_mb_per_request": 1,
+        "initial_retained_memory_mb": 0.0
+      }
+    ],
+    "traffic": [],
+    "shared_jitter": 0.1,
+    "host_baseline_memory_mb": 32,
+    "max_arrivals_per_service_tick": 100000,
+    "trace_max_rows": 20000,
+    "paired_exogenous": true,
+    "health_policy": {
+      "policy_id": "resource-health-dev-v1",
+      "window_seconds": 10,
+      "minimum_span_seconds": 5,
+      "minimum_samples": 3,
+      "minimum_processed": 20,
+      "growth_mb_per_request": 0.05,
+      "growth_mb_per_second": 0.5,
+      "pressure_fraction": 0.8
+    }
+  },
+  "demo": true,
+  "telemetry": {
+    "enabled": true,
+    "delay_min_ticks": 0,
+    "delay_max_ticks": 0,
+    "duplicate_probability": 0,
+    "missing_probability": 0,
+    "missing_window_probability": 0,
+    "drop_windows": [],
+    "late_windows": [],
+    "late_delay_ticks": 120,
+    "decision_delay_seconds": 0,
+    "minimum_coverage": 0.8,
+    "max_records": 10000,
+    "max_windows": 20
+  }
+}
